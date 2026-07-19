@@ -15,6 +15,21 @@ The project is designed to evaluate that proposition, not to validate it. A
 scientifically useful result may support, narrow, reformulate, render redundant,
 or reject ICP.
 
+## Current status
+
+Pilot Batch 01 is complete for the formal core: constructor theory, quantum
+process memory, computational mechanics, macrostates/path ensembles, and causal
+semantics. It registers 19 sources (18 included peer-reviewed sources and one
+current background preprint), 31 source-claim relations, individual extraction
+notes, and a cross-domain comparison.
+
+Start with `synthesis/pilot_batch_01_formal_core.md`. Its principal result is
+that the best-supported common object is an intervention-indexed **family of
+future laws relative to a declared boundary**, not a universal scalar called
+information. Its principal novelty test is whether an identified physical
+record changes those laws under carrier intervention and survives adequate
+state enlargement.
+
 ## Core review question
 
 Across the selected scientific fields, under what operational definitions and
@@ -115,6 +130,11 @@ Initial search strata include:
 
 The scoped expansion for statistics, Zipf, and black-hole information is in
 `synthesis/research_agenda_statistics_zipf_black_holes.md`.
+
+The next recommended empirical-methods batch is Zipf mechanism discrimination:
+preserve the rank-frequency marginal, destroy temporal organization by
+shuffling, and ask which candidate mechanisms still predict sequential and
+interventional structure.
 
 ## Novelty gate
 
