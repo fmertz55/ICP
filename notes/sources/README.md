@@ -30,3 +30,27 @@ Assign the source ID first in `../../library/source_index.csv`.
 | S017 | Marletto 2016 | Constructor-probability boundary |
 | S018 | Gogioso et al. 2023 | Independent process-theory formalization |
 | S019 | Marletto et al. 2026 | Current author review; background only |
+
+## Pilot Batch 02 notes — Zipf mechanism discrimination
+
+| ID | Short source | Role |
+|---|---|---|
+| S020 | Simon 1955 | Preferential growth and anti-identification warning |
+| S021 | Li 1992 | Memory-free random-text counterexample |
+| S022 | Ferrer-i-Cancho & Elvevåg 2010 | Random-text adequacy test |
+| S023 | Ferrer i Cancho & Solé 2003 | Least-effort mechanism |
+| S024 | Schwab et al. 2014 | Latent-mixture criticality null |
+| S025 | Aitchison et al. 2016 | Empirical latent-conditioning diagnostics |
+| S026 | Corominas-Murtra et al. 2015 | General sample-space reduction |
+| S027 | Thurner et al. 2015 | Sentence-level SSR and nestedness |
+| S028 | Clauset et al. 2009 | Power-law inference gate |
+| S029 | Corral et al. 2020 | Rank/count representation distinction |
+| S030 | Moreno-Sánchez et al. 2016 | Large-scale English-text testing |
+| S031 | Gerlach & Altmann 2014 | Topic heterogeneity and fluctuations |
+| S032 | Gerlach & Altmann 2013 | Two-regime vocabulary growth |
+| S033 | De Marzo et al. 2021 | Dynamical versus transient Zipf |
+| S034 | Rosillo-Rodes et al. 2026 | Corrected type-token asymptotics |
+| S035 | Zimmerlin et al. 2026 | Order-dependent discovery paths |
+| S036 | Visser 2013 | Maximum-entropy inference boundary |
+| S037 | Mora & Bialek 2011 | Criticality interpretation |
+| S038 | Tkačik et al. 2015 | Neural criticality empirical model |

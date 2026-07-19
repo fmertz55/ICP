@@ -2,8 +2,9 @@
 
 This is an evolving critical synthesis, not a repository of favorable
 quotations. The detailed first result is in
-`pilot_batch_01_formal_core.md`; every statement below is traceable through
-`../analysis/claim_evidence_matrix.csv`.
+`pilot_batch_01_formal_core.md`; the first mechanism-discrimination result is in
+`pilot_batch_02_zipf_mechanism_discrimination.md`. Every statement below is
+traceable through `../analysis/claim_evidence_matrix.csv`.
 
 ## 1. Operational vocabulary
 
@@ -49,6 +50,14 @@ Macrostate and path-ensemble work supplies disciplined coarse-graining and
 trajectory-distribution tools. It also supplies strong nulls: imposed
 statistical constraints need not be material mechanisms, and projected-out
 variables can generate all apparent memory.
+
+The Zipf literature establishes a decisive anti-inference result: the same
+rank-frequency marginal can arise from memory-free sampling, preferential
+growth, latent mixtures, optimization, critical-like models, maximum-entropy
+constraints, or history-dependent support reduction. Zipf therefore becomes
+ICP-relevant only through conditional future-law and intervention predictions
+beyond the marginal. Rank-count, count-distribution, and type-token laws must
+remain distinct.
 
 ## 3. Common-schema comparison
 
@@ -107,7 +116,7 @@ complete-state process model.
 
 ## 8. Formal and empirical requirements
 
-Use criteria `F001`–`F006`. The priority design is:
+Use criteria `F001`–`F013`. The general priority design is:
 
 1. prepare the same declared macrostate through distinct histories;
 2. randomize matched interventions;
@@ -129,6 +138,9 @@ Use criteria `F001`–`F006`. The priority design is:
   stable state sufficient for an intervention-response family.
 - **Rejected as presently redundant:** merely renaming causal states, process
   tensors, or task possibility as ICP.
+- **Zipf result:** a slope is rejected as ICP evidence; matched-marginal future-
+  law discrimination is retained as a falsifiable laboratory, with a PSA
+  sequence experiment preregistered but not yet executed.
 - **Unresolved:** a new invariant or theorem, biological maintenance and repair,
-  relational observables, the Zipf discriminator, and the black-hole
-  accessibility/recoverability frontier.
+  relational observables, a physical carrier test for any sequence result, and
+  the black-hole accessibility/recoverability frontier.

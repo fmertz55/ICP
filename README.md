@@ -23,12 +23,22 @@ semantics. It registers 19 sources (18 included peer-reviewed sources and one
 current background preprint), 31 source-claim relations, individual extraction
 notes, and a cross-domain comparison.
 
-Start with `synthesis/pilot_batch_01_formal_core.md`. Its principal result is
-that the best-supported common object is an intervention-indexed **family of
-future laws relative to a declared boundary**, not a universal scalar called
-information. Its principal novelty test is whether an identified physical
-record changes those laws under carrier intervention and survives adequate
-state enlargement.
+Pilot Batch 02 is complete for Zipf mechanism discrimination. It adds 19
+peer-reviewed sources spanning preferential growth, random typing, least
+effort, latent mixtures, criticality, maximum entropy, sample-space reduction,
+dynamical coherence, finite-sample inference, and Heaps/type-token dynamics.
+Its principal finding is deliberately negative but productive: a Zipf marginal
+does not identify a mechanism and is not evidence of memory, embodiment, or ICP.
+The ICP-relevant object is the intervention-sensitive law of the next event,
+novelty, or reachable successor set after histories have been matched on their
+present marginal counts.
+
+Start with `synthesis/pilot_batch_01_formal_core.md`, then read
+`synthesis/pilot_batch_02_zipf_mechanism_discrimination.md`. Project-generated
+PSA evidence is quarantined from the literature synthesis under
+`project_evidence/`; its first audit discovered an adaptive-routing censoring
+boundary that invalidates a naive fit to the stored mixed-resolution voxel
+counts.
 
 ## Core review question
 
@@ -85,6 +95,7 @@ ICP/
 ├── notes/         # One structured note per included source
 ├── analysis/      # Claim/evidence links, rivals, and falsification criteria
 ├── synthesis/     # Cross-domain comparison and evolving synthesis
+├── project_evidence/ # Internal data audits and preregistrations; never literature
 └── manuscript/    # Provisional outline, drafts, tables, and figures
 ```
 
@@ -129,12 +140,10 @@ Initial search strata include:
    alternative explanations have been assessed.
 
 The scoped expansion for statistics, Zipf, and black-hole information is in
-`synthesis/research_agenda_statistics_zipf_black_holes.md`.
-
-The next recommended empirical-methods batch is Zipf mechanism discrimination:
-preserve the rank-frequency marginal, destroy temporal organization by
-shuffling, and ask which candidate mechanisms still predict sequential and
-interventional structure.
+`synthesis/research_agenda_statistics_zipf_black_holes.md`. The completed Zipf
+batch includes an adversarial mechanism matrix in
+`analysis/zipf_mechanism_matrix.csv` and a preregistration-ready PSA design in
+`project_evidence/psa_zipf_preregistration.md`.
 
 ## Novelty gate
 

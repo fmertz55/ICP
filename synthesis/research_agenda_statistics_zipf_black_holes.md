@@ -1,8 +1,9 @@
 # ICP research expansion: statistics, Zipf, and black-hole information
 
 - Date scoped: 2026-07-19
-- Status: research agenda; sources below are candidates pending protocol-based
-  screening and extraction
+- Status: research agenda; the Zipf stratum is now completed as Pilot Batch 02
+  under protocol 0.3; quantum and black-hole sources remain candidates pending
+  protocol-based screening and extraction
 - Governing constraint: preserve the original seven-pillar first-paper
   architecture
 
@@ -116,6 +117,11 @@ mediates the difference under intervention, ICP gains operational content.
 
 ## 2. Zipf as a discriminating ICP laboratory
 
+**Batch status:** completed. See
+`pilot_batch_02_zipf_mechanism_discrimination.md`,
+`../analysis/zipf_mechanism_matrix.csv`, and the separate PSA audit and
+preregistration under `../project_evidence/`.
+
 ### 2.1 Why Zipf matters
 
 A Zipfian rank-frequency relation, approximately `f(r) proportional to r^-alpha`
@@ -169,7 +175,8 @@ discriminated by predictions beyond the fitted exponent.
 - [Corominas-Murtra, Hanel, and Thurner, history-dependent sample-space reduction](https://arxiv.org/abs/1407.2775)
 - [De Marzo et al. (2021), dynamical versus spurious Zipf behavior](https://doi.org/10.1103/PhysRevResearch.3.013084)
 - [Clauset, Shalizi, and Newman, power-law model testing](https://doi.org/10.1137/070710111)
-- [Prossillo, Hébert-Dufresne, and Dodds (2026), finite type-token/rank relationships](https://doi.org/10.1103/q9w5-7k3j)
+- [Rosillo-Rodes, Hébert-Dufresne, and Dodds (2026), finite type-token/rank relationships](https://doi.org/10.1103/q9w5-7k3j)
+- [Zimmerlin et al. (2026), order-dependent discovery and the Heaps-Zipf relationship](https://doi.org/10.1103/543d-frbq)
 
 ## 3. Quantum and black-hole information
 

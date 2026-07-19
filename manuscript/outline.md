@@ -89,10 +89,15 @@ non-equivalence, evidence status, and unresolved test.
   memory.
 - Distinguish predictive equivalence from intervention-level causation.
 
-**Worked bridge — Zipf as a mechanism-discrimination test:** A Zipfian
-rank-frequency marginal can arise from incompatible dynamics. Use it to show why
-ICP must compare conditional future laws, histories, shuffling controls, and
-interventions rather than recruit a power law as supporting evidence.
+**Worked bridge — Zipf as an adversarial test of causal underdetermination:** A
+Zipfian rank-frequency marginal can arise from independent random typing,
+preferential growth, latent mixtures, least-effort optimization, critical-like
+models, Maximum Entropy, sample-space reduction, and transient undersampling.
+Freeze rank-count, count-distribution, and type-token laws as distinct objects.
+Match histories on final counts, then compare next-event, novelty, and reachable-
+successor laws under within-sequence shuffle, latent conditioning, and mechanism-
+specific interventions. The slope is not evidence; out-of-sample future-law
+discrimination is the scientific target.
 
 #### 4.5 Macrostates and statistical emergence: meaningful predictive state
 
@@ -119,6 +124,10 @@ interventions rather than recruit a power law as supporting evidence.
 - Pair every similarity with a non-equivalence.
 - Ask whether a minimal physically embodied record is sufficient for the full
   admissible intervention-response family.
+- Include the PSA Zipf audit as a methods vignette, explicitly marked project
+  evidence: adaptive heat-trigger subdivision censors mixed-level voxel counts
+  at 21, while common-L1 reconstruction removes the ceiling. Use the failure to
+  demonstrate why representation and pipeline controls precede interpretation.
 
 ### 6. Quantum-gravitational frontier box: black-hole information
 
@@ -168,6 +177,7 @@ a literal physical branching event.
 - `H, M, pi, P^pi, R^pi` cross-domain comparison with non-equivalences.
 - Claim-evidence matrix including qualifying and challenging sources.
 - Rival models and discriminating tests.
-- Box: Zipfian marginals do not identify future-generating mechanisms.
+- Box: Zipfian marginals do not identify future-generating mechanisms; matched-
+  marginal sequence interventions reveal the actual ICP question.
 - Box: Black-hole information distinguishes existence, reconstruction,
   recoverability, and computational accessibility.
