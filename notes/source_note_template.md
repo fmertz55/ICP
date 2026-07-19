@@ -13,6 +13,10 @@
 
 ## System, model, scale, and partition
 
+- Observable algebra or measurement set:
+- Admissible interventions or control policies:
+- Resource or computational bounds:
+
 ## Author-defined terms
 
 - Information:
@@ -33,8 +37,9 @@ State what was demonstrated or argued, not what ICP would like it to mean.
 
 - Prior history `H`:
 - Physical carrier or organization `M`:
-- Dynamics or intervention:
-- Reachable set `R` or distribution `P(F | M, intervention)`:
+- Dynamics and intervention or policy `pi`:
+- Predictive, interventional, or counterfactual claim:
+- Reachable set `R^pi` or distribution `P^pi(F | M)`:
 - Comparison case and observed difference:
 - Does state enlargement remove the history dependence?
 
@@ -64,4 +69,3 @@ numbers. Verify quotations against the full text.
 - Falsification-criterion IDs:
 
 ## Open questions and follow-up searches
-

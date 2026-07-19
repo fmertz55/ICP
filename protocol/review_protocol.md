@@ -1,6 +1,6 @@
 # ICP structured critical-synthesis protocol
 
-- Protocol version: 0.1
+- Protocol version: 0.2
 - Date: 2026-07-19
 - Status: pilot protocol
 - Review type: structured scoping review with critical integrative synthesis
@@ -13,9 +13,16 @@ in `amendments.csv` rather than silently incorporated.
 ## 1. Objective
 
 Evaluate whether separate scientific programs contain formal or empirical
-results that instantiate a shared structure:
+results that instantiate a shared structure over a declared family of
+interventions or policies:
 
-`history H -> embodied organization or memory M -> differentiated future R or P(F | M, intervention)`
+`history H_t -> embodied record M_t -> {P^pi(F[t:t+tau] | M_t) : pi in Pi}`
+
+For a specified `pi`, hard accessibility is represented by the support of the
+future law and soft constraint by its probability weighting. Predictive,
+interventional, and counterfactual claims must be labeled separately. A family
+of conditional distributions is not a counterfactual model unless the causal
+assumptions linking alternative interventions are supplied.
 
 The review tests whether that structure is genuinely shared, merely analogous,
 or already exhausted by ordinary dynamics and state specification.
@@ -28,13 +35,15 @@ or already exhausted by ordinary dynamics and state specification.
    what scale and relative to what system-environment partition?
 3. What formal theorem, model, experiment, simulation, or intervention connects
    that distinction to a future reachable set or conditional distribution?
-4. Are cross-field mappings verbal, structural, formally isomorphic, or
+4. Is the source making a predictive, interventional, or counterfactual claim,
+   and what assumptions identify it?
+5. Are cross-field mappings verbal, structural, formally isomorphic, or
    derivational? Where do they fail?
-5. Which boundary conditions, coarse-grainings, observational choices, or
+6. Which boundary conditions, coarse-grainings, observational choices, or
    omitted variables generate or remove the claimed history dependence?
-6. What does ICP predict, prohibit, compress, or explain beyond a fully specified
+7. What does ICP predict, prohibit, compress, or explain beyond a fully specified
    standard dynamical account?
-7. What evidence would narrow, falsify, or make the proposal redundant?
+8. What evidence would narrow, falsify, or make the proposal redundant?
 
 ## 3. Claim levels
 
@@ -94,6 +103,13 @@ including terms such as critique, limitation, counterexample, no-go, Markovian
 embedding, state augmentation, observer dependence, coarse-graining, and
 alternative explanation. Save long or reusable queries in `searches/queries/`.
 
+Statistics is treated as shared formal language across the seven original
+literature programs, not as an additional confirming pillar. Zipf's law is a
+mechanism-discrimination case: a rank-frequency marginal is insufficient to
+infer inherited constraint. Black-hole information is a frontier stress test;
+controlled holographic or gravitational results must be separated from claims
+about evaporating astrophysical black holes.
+
 ## 6. Screening and source registration
 
 Screen title/abstract first, then full text where warranted. Record all candidate
@@ -116,6 +132,7 @@ Use the note template without replacing a source's terminology with ICP terms.
 Extract:
 
 - system, model, scale, and system-environment partition;
+- admissible intervention or policy family and observable algebra;
 - author-defined information, constraint, state/history, and future object;
 - method or formalism and the exact result;
 - assumptions, boundary conditions, interventions, and comparison case;
@@ -150,7 +167,8 @@ Organize synthesis claim-by-claim and comparison-dimension-by-dimension, not as
 a sequence of favorable paper summaries. For each proposed cross-domain match:
 
 1. state the source result in native terms;
-2. map `H`, `M`, the dynamics/intervention, and `R` or `P(F)`;
+2. map `H`, `M`, the admissible intervention family, and the resulting support
+   `R^pi` or path law `P^pi(F)`;
 3. classify the match as verbal, structural, formal, or derivational;
 4. record the strongest non-equivalence;
 5. compare the best rival explanation;
@@ -166,7 +184,8 @@ conditions, and interventions already determine all relevant future
 distributions; "information as constraint" is then a redescription with no new
 physical content. Other mandatory rivals include state augmentation or Markovian
 embedding, coarse-graining or observer dependence, ordinary stability and
-selection dynamics, and scale-specific biological organization.
+selection dynamics, scale-specific biological organization, and failure to
+identify interventional or counterfactual laws from observational statistics.
 
 Rivals are tracked in `analysis/competing_explanations.csv`. ICP should advance
 from synthesis to principle only after a formal version distinguishes itself
@@ -184,4 +203,3 @@ contrary evidence, and missing primary sources.
 Report methods and limitations with enough detail to reproduce the search and
 trace every major manuscript claim to evidence rows. Grade conclusions as
 established field result, plausible synthesis inference, or ICP conjecture.
-
