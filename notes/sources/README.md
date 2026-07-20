@@ -86,3 +86,38 @@ Assign the source ID first in `../../library/source_index.csv`.
 | S063 | Geng et al. 2026 | Complete-asymptotic-algebra counterposition |
 | S064 | Kumar 2026 | Defect-entropy massless-island endpoint model |
 | S065 | Dar, Kajuri & Panigrahi 2026 | CGHS asymptotic-algebra recovery test |
+
+## Pilot Batch 04 notes — entropy and constraint
+
+| ID | Short source | Role |
+|---|---|---|
+| S066 | Shannon 1948 | Coding entropy and entropy rate baseline |
+| S067 | Boltzmann 1877 | Compatible-microstate multiplicity |
+| S068 | Jaynes 1957 | MaxEnt inference and physical-constraint boundary |
+| S069 | Lieb & Yngvason 1999 | Entropy representation of accessibility order |
+| S070 | Lieb & Yngvason 2013 | Nonequilibrium incomparability and entropy bounds |
+| S071 | Jarzynski 1997 | Nonequilibrium work equality |
+| S072 | Crooks 1999 | Forward/reverse path-law ratio |
+| S073 | Seifert 2005 | Trajectory entropy production |
+| S074 | Still et al. 2012 | Predictive information and dissipation |
+| S075 | Kolmogorov 1958 | Measure-theoretic dynamical entropy |
+| S076 | Sinai 1959 | Generating-partition boundary |
+| S077 | Adler, Konheim & McAndrew 1965 | Topological path-growth entropy |
+| S078 | Pesin 1977 | Lyapunov/metric-entropy link |
+| S079 | Donsker & Varadhan 1975 | Rare-event rate-function foundation |
+| S080 | Chetrite & Touchette 2015 | Conditioned versus driven path law |
+| S081 | Crutchfield & Feldman 2003 | Entropy rate versus predictive structure |
+| S082 | Rényi 1961 | Order-indexed entropy family |
+| S083 | Tsallis 1988 | Nonadditive generalized entropy |
+| S084 | Kolmogorov 1965 | Individual-object description complexity |
+| S085 | Lindblad 1975 | Relative-entropy data processing |
+| S086 | König, Renner & Schaffner 2009 | One-shot min/max operational tasks |
+| S087 | Nielsen 1999 | Majorization and state-conversion order |
+| S088 | Brandão et al. 2015 | Generalized thermodynamic second laws |
+| S089 | Lostaglio, Jennings & Rudolph 2015 | Coherence constraints beyond free energy |
+| S090 | Donnelly 2012 | Gauge-sector entropy decomposition |
+| S091 | Casini, Huerta & Rosabal 2014 | Observable-algebra and center dependence |
+| S092 | Wilming, Gallego & Eisert 2016 | Thermodynamics under control restrictions |
+| S093 | Lie et al. 2026 | Informational-equilibrium channel characterization |
+| S094 | Klinger, Kudler-Flam & Satishchandran 2026 | Horizon charge algebra; preprint |
+| S095 | Han 2026 | Fixed-area LQG algebra and area-law boundary |

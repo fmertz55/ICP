@@ -27,7 +27,9 @@ test—not a collection of statements that information is physical.
 The seven programs in the original scoping discussion remain explicit. They are
 provisional literature pillars, not conclusions. Statistics supplies their
 shared comparison language; Zipf and black-hole information appear as carefully
-bounded stress tests rather than new pillars.
+bounded stress tests rather than new pillars. Entropy is cross-cutting formal
+infrastructure rather than an eighth pillar: every use must identify its state
+space, measure or reference, algebra, operation class, task, and horizon.
 
 ## Sections
 
@@ -60,6 +62,15 @@ Use the comparison schema:
 Distinguish prediction from intervention and counterfactual comparison. In
 continuous systems, a single path may have zero probability without being
 impossible, so reachability requires a declared topology and support notion.
+
+Add the entropy profile
+
+`K = (support growth, entropy rate, predictive information, predictive memory,
+rare-event rate, entropy production, transformation monotones)`.
+
+Use it only as a set of projections of the future-law family. Retain the full
+path language and allowed-transformation preorder because equal scalar profiles
+can conceal different future structures.
 
 ### 4. The seven literature pillars
 
@@ -105,6 +116,15 @@ discrimination is the scientific target.
   coarse-graining.
 - Separate constraints on an inference from constraints physically carried by a
   system.
+
+**Worked bridge — entropy as a constraint stress test:** Compare Boltzmann
+support, MaxEnt inference, thermodynamic accessibility, entropy production,
+topological and KS entropy, predictive memory, relative entropy, one-shot
+min/max quantities, resource monotones, and algebraic entropy. State the valid
+nested-set theorem behind “constraint lowers entropy,” then show why it does
+not survive changes of measure, dynamics, algebra, operation class, or task.
+The empirical target is a constraint intervention that changes future laws at
+matched ordinary entropy.
 
 #### 4.6 Relational quantum approaches: state and information relative to systems
 
@@ -186,3 +206,5 @@ a literal physical branching event.
 - Box: A Page curve is not a carrier—black-hole information distinguishes
   global preservation, algebra-relative access, logical reconstruction,
   message recovery, and efficient recovery.
+- Box: Constraint is upstream of entropy—equal entropy does not identify equal
+  support, predictive memory, transformation preorder, or observable algebra.

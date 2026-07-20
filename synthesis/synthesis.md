@@ -4,7 +4,9 @@ This is an evolving critical synthesis, not a repository of favorable
 quotations. The detailed first result is in
 `pilot_batch_01_formal_core.md`; the first mechanism-discrimination result is in
 `pilot_batch_02_zipf_mechanism_discrimination.md`; the quantum-gravitational
-frontier stress test is in `pilot_batch_03_black_hole_information.md`. Every
+frontier stress test is in `pilot_batch_03_black_hole_information.md`; the
+cross-cutting entropy analysis is in
+`pilot_batch_04_entropy_constraint.md`. Every
 statement below is traceable through `../analysis/claim_evidence_matrix.csv`.
 
 ## 1. Operational vocabulary
@@ -28,6 +30,10 @@ statement below is traceable through `../analysis/claim_evidence_matrix.csv`.
 - **Operational information hierarchy** separates global preservation,
   algebra-relative distinguishability, logical reconstruction, allowed message
   recovery, and efficient recovery under declared resources.
+- **Entropy profile** separates support volume, path-growth rate, typical
+  randomness production, predictive memory, rare-event cost, entropy
+  production, and allowed-transformation monotones. None is an unindexed
+  synonym for constraint.
 
 ## 2. What the pilot fields establish
 
@@ -73,6 +79,16 @@ observation of information recovery from an astrophysical black hole. The
 definition-sensitive disagreement, not as a settled verdict for or against
 islands.
 
+The entropy literature establishes a third anti-inference result: the same
+scalar entropy can accompany different support languages, predictive memories,
+state-conversion preorders, observable algebras, and control-limited futures.
+Conversely, adding a physical constraint does not have a universal sign across
+all entropy notions. A monotonic decrease follows only for a specified nested
+set, fixed measure or reference, fixed algebra, and fixed functional. In
+thermodynamic accessibility, resource theory, and current informational-
+equilibrium work, the allowed-transition or channel structure is logically
+prior to its entropic monotones.
+
 ## 3. Common-schema comparison
 
 The narrowest shared object surviving the pilot is:
@@ -115,6 +131,15 @@ fundamental principle.
   copy budgets.
 - Page curve ≠ microscopic channel or carrier.
 - Euclidean replica saddle ≠ Lorentzian information trajectory.
+- Physical constraint ≠ variational inference constraint.
+- One-symbol entropy ≠ entropy rate ≠ predictive memory.
+- Topological path growth ≠ measure/KS entropy.
+- Entropy production ≠ stored organization.
+- Rare-event conditioning ≠ causal intervention.
+- Equal entropy ≠ equal convertibility under allowed operations.
+- Regional von Neumann entropy ≠ an algebra-independent property.
+- A fitted Rényi or Tsallis index ≠ a mechanism.
+- Algorithmic complexity ≠ a computable thermodynamic entropy.
 
 ## 6. Competing explanations
 
@@ -148,6 +173,8 @@ Use criteria `F001`–`F020`. The general priority design is:
 4. enlarge the state until ordinary missing-variable memory is exhausted;
 5. perturb the proposed carrier with material and energetic controls;
 6. test representation and partition robustness.
+7. where entropy is used, match the ordinary scalar first and test the full
+   future-law, algebra, preorder, or entropy-profile difference that remains.
 
 ## 9. Graded conclusions
 
@@ -168,6 +195,10 @@ Use criteria `F001`–`F020`. The general priority design is:
 - **Black-hole result:** a Page curve is rejected as carrier evidence; the
   five-level preservation-to-efficient-recovery hierarchy and explicit
   algebra/resource indices are retained as durable constraints on ICP.
+- **Entropy result:** “constraint lowers entropy” is rejected as a general ICP
+  law; constraint is retained as the upstream restriction on states, paths,
+  observables, or operations, with entropies serving as task-indexed
+  projections or monotones.
 - **Unresolved:** a new invariant or theorem, biological maintenance and repair,
   relational observables, a physical carrier test for any sequence result, a
   nonperturbative single-theory evaporation channel for realistic gravity, and

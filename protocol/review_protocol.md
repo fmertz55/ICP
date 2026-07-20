@@ -1,7 +1,7 @@
 # ICP structured critical-synthesis protocol
 
-- Protocol version: 0.2
-- Date: 2026-07-19
+- Protocol version: 0.5
+- Date: 2026-07-20
 - Status: pilot protocol
 - Review type: structured scoping review with critical integrative synthesis
 
@@ -110,6 +110,14 @@ infer inherited constraint. Black-hole information is a frontier stress test;
 controlled holographic or gravitational results must be separated from claims
 about evaporating astrophysical black holes.
 
+Entropy is treated as a cross-cutting stress test, not as a synonym for
+constraint. Every entropy claim must declare the underlying state or path
+space, measure or reference state, coarse-graining or observable algebra,
+allowed operation family, task, horizon, and error tolerance. Searches must
+separate support restriction, probability reweighting, accessibility orders,
+entropy rate, predictive memory, entropy production, rare-event conditioning,
+one-shot tasks, generalized entropies, and algebraic entropy.
+
 ## 6. Screening and source registration
 
 Screen title/abstract first, then full text where warranted. Record all candidate
@@ -134,6 +142,8 @@ Extract:
 - system, model, scale, and system-environment partition;
 - admissible intervention or policy family and observable algebra;
 - author-defined information, constraint, state/history, and future object;
+- for entropy claims: functional, state/path space, measure or reference,
+  partition/algebra, allowed operations, task, horizon, and tolerance;
 - method or formalism and the exact result;
 - assumptions, boundary conditions, interventions, and comparison case;
 - empirical status and maturity;
@@ -187,9 +197,9 @@ embedding, coarse-graining or observer dependence, ordinary stability and
 selection dynamics, scale-specific biological organization, and failure to
 identify interventional or counterfactual laws from observational statistics.
 
-Rivals are tracked in `analysis/competing_explanations.csv`. ICP should advance
-from synthesis to principle only after a formal version distinguishes itself
-from at least one strong rival.
+Rivals are tracked in `analysis/competing_explanations.csv`. ICP should be
+regarded as an independently established principle only after a formal version
+distinguishes itself from at least one strong rival.
 
 ## 11. Stopping rule
 

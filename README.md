@@ -47,9 +47,20 @@ algebra-relative distinguishability, logical reconstruction, message recovery,
 and efficient recovery are five different claims. A Page curve establishes none
 of the missing carrier, channel, or resource claims by itself.
 
+Pilot Batch 04 is complete for entropy as a cross-cutting constraint stress
+test. It adds 30 primary sources (`S066`–`S095`) spanning thermodynamic
+accessibility, statistical inference, entropy production, dynamical and path
+entropy, predictive memory, rare events, generalized and one-shot quantities,
+resource preorders, gauge-algebra dependence, and current quantum-gravity
+entropy. Its principal finding is that constraint is upstream of entropy: a
+constraint can restrict support, reweight paths, change an operation preorder,
+or alter an observable algebra without having one universal scalar signature.
+Equal entropy does not imply equal counterfactual futures.
+
 Start with `synthesis/pilot_batch_01_formal_core.md`, then read
-`synthesis/pilot_batch_02_zipf_mechanism_discrimination.md` and
-`synthesis/pilot_batch_03_black_hole_information.md`. Project-generated
+`synthesis/pilot_batch_02_zipf_mechanism_discrimination.md`,
+`synthesis/pilot_batch_03_black_hole_information.md`, and
+`synthesis/pilot_batch_04_entropy_constraint.md`. Project-generated
 PSA evidence is quarantined from the literature synthesis under
 `project_evidence/`; its first audit discovered an adaptive-routing censoring
 boundary that invalidates a naive fit to the stored mixed-resolution voxel
@@ -137,7 +148,10 @@ Initial search strata include:
 9. the quantum-gravitational frontier, including black-hole information,
    holographic encoding, generalized entropy, and recoverability, treated as a
    stress test rather than foundational confirmation;
-10. critical literature, no-go results, reductive explanations, and null models.
+10. cross-cutting entropy and order structures, including thermodynamic
+    accessibility, path-support growth, entropy rate, predictive memory,
+    relative entropy, one-shot tasks, resource monotones, and algebraic entropy;
+11. critical literature, no-go results, reductive explanations, and null models.
 
 ## Working method
 
@@ -162,6 +176,10 @@ batch includes an adversarial mechanism matrix in
 includes a mechanism/status matrix in `analysis/black_hole_information_matrix.csv`
 and a paired map of the live algebra dispute in
 `analysis/black_hole_frontier_disagreement.csv`.
+The entropy batch adds `analysis/entropy_constraint_matrix.csv`, which records
+the object and operation behind each entropy family, and
+`analysis/entropy_non_equivalence_matrix.csv`, which turns equal-entropy
+counterexamples into empirical design constraints.
 
 ## Novelty and establishment gate
 
