@@ -1,0 +1,106 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,tabularx,longtable,array}
+\usepackage{graphicx}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+
+\definecolor{icpnavy}{HTML}{183B56}
+\definecolor{icpteal}{HTML}{2B6F77}
+\definecolor{icpgold}{HTML}{A56A18}
+\definecolor{icpgray}{HTML}{5E6870}
+\definecolor{icppale}{HTML}{F1F5F6}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=icpnavy,
+  citecolor=icpteal,
+  urlcolor=icpteal,
+  pdftitle={Persistent Information and the Constrained Future},
+  pdfauthor={Douglas Clark}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{icpgray}IOTA-grounded ICP synthesis}
+\fancyhead[R]{\footnotesize\color{icpgray}Critical integrative synthesis --- July 2026}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{14pt}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.14}
+\emergencystretch=2em
+
+\newcommand{\ICP}{\textsc{ICP}}
+\newcommand{\IOTA}{\textsc{IOTA}}
+\newcommand{\Efamily}{\mathcal{E}_{\tau}}
+\newcommand{\Rset}{\mathcal{R}}
+\newcommand{\status}[1]{\textsf{#1}}
+
+\title{\vspace{-1.2em}\textbf{Persistent Information and the Constrained Future}\\
+\large An IOTA-Grounded Critical Synthesis of the Information--Constraint Principle}
+\author{Douglas Clark}
+\date{Manuscript draft --- 20 July 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The IOTA research program begins from an information-first substrate
+hypothesis: present information is the causally retained result of interaction
+history, embodied in current state and relational organization, and information
+changes when interaction changes the structure of reachable futures. The
+Information--Constraint Principle (ICP) proposes that physically effective
+information is persistent, embodied constraint on an explicitly declared family
+of possible or probable future responses. This article has two purposes: to
+audit whether IOTA/ICP is scientifically viable in light of current theory,
+experiment, close prior art, and project results; and, if so, to specify the
+research path from constraint persistence to coherence, quasiparticles, fields,
+and emergent mass and energy. We conduct a critical integrative synthesis rather
+than a systematic review, separating established field results, project
+constructive evidence, cross-domain inference, and ontology-level hypothesis.
+Control and viability theory, computational mechanics, process tensors,
+counterfactual semantic information, feedback thermodynamics, decoherence,
+biological memory, and emergent quasiparticle physics establish strong native
+precedents for parts of the proposal. They also impose a severe novelty test:
+generic claims that information changes future possibilities are already
+covered by mature formalisms. IOTA contributes bounded demonstrations of
+constraint transport through disjoint carrier replacement, prospective lineage
+succession, finite opportunity lifetimes, and realization redundancy. A
+separate registered construction recovers a bounded one-particle Dirac role,
+but supplies the quantum substrate, clock, Born readout, and mass parameter.
+Our verdict is positive but graded. IOTA/ICP has real scientific legs as a
+coherent, falsifiable research program and operational synthesis, and the
+project has demonstrated beginnings of its proposed persistence mechanism. It
+has not yet established a distinct fundamental law, an IOTA-to-quantum
+derivation, or an information-first ontology. The decisive next bridge is a
+minimal persistent coherence that yields quantum composition and probability,
+then a manipulable quasiparticle role, without importing the target structure.
+\end{abstract}
+
+\noindent\colorbox{icppale}{\parbox{0.965\linewidth}{\small
+\textbf{Verdict in one sentence.} IOTA/ICP is viable enough to pursue and
+specific enough to fail, but the present evidence supports a research program
+and bounded mechanism---not yet a fundamental ontology or law.}}
+
+\input{manuscript/sections/01_persistence_iota}
+\input{manuscript/sections/02_method_formalism}
+\input{manuscript/sections/03_project_evidence}
+\input{manuscript/sections/04_native_formalisms}
+\input{manuscript/sections/05_quantum_emergence}
+\input{manuscript/sections/06_statistics_biology_gravity}
+\input{manuscript/sections/07_adversarial_verdict}
+\input{manuscript/sections/08_research_path}
+
+\bibliographystyle{unsrtnat}
+\bibliography{library/references}
+
+\end{document}

@@ -1,0 +1,150 @@
+\section{Closest native formalisms and the redundancy test}
+
+The most important literature for ICP is not the literature that sounds most
+similar. It is the literature capable of making the proposal redundant. Four
+clusters cover much of the generic future-constraint language: control and
+viability, empowerment and causal information, constructor and predictive-state
+theory, and feedback information thermodynamics.
+
+\subsection{Reachability and viability already describe constrained futures}
+
+Hamilton--Jacobi reachability represents controlled future sets directly.
+Mitchell, Bayen, and Tomlin characterize a finite-horizon backward-reachable set
+for a nonlinear differential game as a sublevel set of a viscosity solution to
+a Hamilton--Jacobi--Isaacs equation \citep{MitchellEtAl2005Reachable}. Viability
+theory identifies states from which at least one admissible evolution can remain
+inside a declared constraint set, with convergent approximation schemes under
+stated conditions \citep{SaintPierre1994Viability}. These are not loose
+analogies to Eq.~\eqref{eq:future-family}; they are mature mathematical theories
+of accessible and survivable futures under controls and disturbances.
+
+The distinction available to ICP lies upstream of the computed set. A
+reachability calculation is given the state, law, targets, controls,
+disturbances, boundary, and horizon. It need not ask how a particular
+constraint role was formed, where it is physically realized, or whether it can
+survive replacement of its first witness. If ICP stops at ``the state changes
+what is reachable,'' it is standard control language. If it can identify a
+minimal role that is formed and transported across realizations, it may add a
+new state-equivalence or mechanism question to that language.
+
+\subsection{Empowerment and future-option measures}
+
+Empowerment makes the overlap still sharper. Its original finite-step form is
+the channel capacity from present action sequences to later sensed states---a
+scalar measure of potential perceivable control \citep{KlyubinEtAl2005Empowerment}.
+Process empowerment replaces fixed open-loop scripts with feedback-conditioned
+probing policies and can expose controllability hidden by noise or traps
+\citep{TiomkinEtAl2025ProcessEmpowerment}. Causal entropic forcing instead
+builds a finite-horizon path-entropy objective into an effective force and
+produces adaptive-looking behavior in simple simulations
+\citep{WissnerGrossFreer2013CausalEntropy}.
+
+These works defeat any claim that ICP discovered the idea of valuing or
+counting future options. They also clarify what ICP does \emph{not} assert. The
+principle does not presently say that systems maximize reachable-set size,
+empowerment, entropy, or optionality. A constraint may reduce, redirect, or
+reorganize futures; persistent structure can increase viable options at one
+scale while excluding paths at another. Scalar option values also collapse
+outcome identity: equal capacities need not imply equal future-law families.
+
+\subsection{Causal information and the closest semantic rival}
+
+Causal-information measures require post-intervention distributions or a
+defended causal model. Ay and Polani formalize information flow using causal
+rather than merely observational independence \citep{AyPolani2008InformationFlows}.
+Counterexamples show why transfer entropy and related dyadic quantities can
+both overestimate flow and underestimate influence
+\citep{JamesEtAl2016InformationFlows}. Predictive association, including a
+Zipf law or high mutual information, is therefore not a carrier test.
+
+Kolchinsky and Wolpert provide the closest mature formal rival to the phrase
+``information that makes a difference.'' They define semantic information as
+system--environment correlation whose controlled scrambling lowers a declared
+future viability \citep{KolchinskyWolpert2018Semantic}. The intervention,
+system boundary, ensemble, horizon, syntactic measure, and viability function
+are constitutive. On a survival or self-maintenance task, an ICP analysis should
+specialize or compare with this framework, not silently rename it.
+
+ICP is broader only in a limited sense: its target may be any registered
+future-response role, not necessarily viability, and it emphasizes formation
+and succession across original-witness replacement. Breadth is not novelty by
+itself. Unless carrier succession produces a new invariant or empirical
+prediction, semantic information and ordinary causal-effect analysis may
+already exhaust the phenomenon.
+
+\subsection{Constructor theory and predictive-state theory}
+
+Constructor theory supplies a law-level language of possible and impossible
+repeatable tasks and characterizes information variables through physical task
+repertoires such as copying, permutation, and distinguishability
+\citep{Deutsch2013Constructor,DeutschMarletto2015Information}. This is the
+cleanest neighbor for hard physical possibility. It does not, in its basic task
+definition, supply a history-conditioned stochastic process or require that a
+present constructor was formed through carrier succession. ICP may eventually
+add a temporal formation and inheritance layer; for now the relationship is
+structural, not derivational.
+
+Computational mechanics begins from histories rather than tasks. Causal states
+are equivalence classes of pasts with the same conditional distribution over
+futures and yield a minimal optimal predictive representation under the stated
+process assumptions \citep{ShaliziCrutchfield2001ComputationalMechanics}.
+Input--output epsilon-transducers extend the construction to conditional output
+laws under future input sequences \citep{BarnettCrutchfield2015Transducer}.
+This is almost exactly the $H\rightarrow M\rightarrow P(F\mid M)$ part of
+ICP.
+
+The difference is physical, not algebraic. An inferred causal state need not be
+localized, manipulable, or Pearl-causal; conditioning on an input sequence is
+not automatically a surgical intervention. ICP's carrier criterion asks
+whether a physically embodied realization is necessary and sufficient for the
+relevant family and whether its replacement preserves the role. If that
+physical test adds nothing to the predictive equivalence class, computational
+mechanics is the more mature account.
+
+\subsection{Feedback information thermodynamics}
+
+Feedback thermodynamics gives direct evidence that a retained measurement can
+change a later physical transformation. Sagawa and Ueda's generalized
+Jarzynski relation includes information and feedback efficacy in work bounds
+\citep{SagawaUeda2010Feedback}; Toyabe and colleagues tested information-to-free-
+energy conversion with position-conditioned feedback on a Brownian particle
+\citep{ToyabeEtAl2010InformationEnergy}. An autonomous bit-tape demon makes the
+memory carrier and its thermodynamic accounting explicit
+\citep{MandalJarzynski2012Demon}. Current work also shows that finite memory and
+a limited protocol repertoire alter the optimal feedback value
+\citep{HartleEtAl2026LimitedResources}.
+
+A 2026 experimental preprint provides an especially relevant boundary case.
+Time-delayed measurements of a colloid in a viscoelastic bath reveal memory not
+captured by the visible instantaneous coordinate, and feedback can extract work
+from hidden environmental degrees of freedom \citep{MurugaEtAl2026HiddenDegrees}.
+This is strong evidence that information can persist outside the original or
+currently observed bearer while remaining physically realized elsewhere. It
+also supports the state-augmentation null: the enlarged system is Markovian and
+the hidden modes carry ordinary excess free energy. As a preprint, it remains
+frontier evidence.
+
+Information thermodynamics therefore supports causal utility and closed
+physical accounting. It does not support the inference that energy emerges from
+information, because energy, Hamiltonians, baths, memories, and protocols enter
+the theory as supplied structure. IOTA must derive mass- and energy-like
+invariants at a later rung rather than cite feedback conversion as that
+derivation.
+
+\subsection{Result of the redundancy audit}
+
+The generic ICP proposition is largely preempted. Mature theories already
+establish that present physical states, controls, memories, and correlations
+differentiate future possibilities and performance. The viable novelty target
+is narrower:
+
+\begin{quote}
+An interaction forms a physically embodied constraint role; the original
+witness ceases to instantiate it; a successor realization preserves the
+registered intervention-response role; and perturbing that successor changes
+the future family under matched controls.
+\end{quote}
+
+That target aligns with the strongest IOTA evidence and remains open as a
+general principle. It is also falsifiable by complete-state reduction,
+failure of role equivalence, or representation dependence.

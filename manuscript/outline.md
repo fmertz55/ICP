@@ -1,210 +1,329 @@
-# Provisional manuscript outline
+# IOTA-grounded ICP synthesis: frozen manuscript architecture
 
 ## Working title
 
-**Information as Constraint on Physical Possibility: A Critical
-Cross-Disciplinary Synthesis**
+**Persistent Information and the Constrained Future: An IOTA-Grounded Critical
+Synthesis of the Information-Constraint Principle**
 
-Alternative: **The Constrained Future: Scientific Foundations and Limits of a
-Candidate Information-Constraint Principle**
+Short alternative: **How Information Constrains Physical Possibility**
 
-## Central thesis
+## The paper's two functions
 
-Across several mature but separate research programs, physically effective
-information repeatedly appears as structure that links histories to
-differentiated sets or distributions of possible futures. The paper evaluates
-whether that is a genuine shared structure, a family of useful analogies, or a
-redescription of ordinary dynamics.
+1. **Viability audit.** Determine whether IOTA and the Information-Constraint
+   Principle (ICP) have scientifically credible "legs" in light of current
+   theory, experiment, rival formalisms, and the project's own positive and
+   negative results.
+2. **Research framing.** If the answer is positive at any defensible level,
+   identify the exact emergence ladder, missing bridges, failure conditions,
+   and next experiments.
 
-## Scope note
+The verdict is not fixed in advance. The manuscript must be able to conclude
+that ICP is redundant, premature, or falsified if the evidence warrants it.
 
-This is the first broad ICP foundations paper. It is not a review of literature
-chosen to support the Dirac findings. The supplied Dirac manuscript and IOTA
-simulation results provide context but do not count as evidence. The contribution
-must be the cross-field formal comparison, its disanalogies, and the novelty
-test—not a collection of statements that information is physical.
+## Governing architecture
 
-The seven programs in the original scoping discussion remain explicit. They are
-provisional literature pillars, not conclusions. Statistics supplies their
-shared comparison language; Zipf and black-hole information appear as carefully
-bounded stress tests rather than new pillars. Entropy is cross-cutting formal
-infrastructure rather than an eighth pillar: every use must identify its state
-space, measure or reference, algebra, operation class, task, and horizon.
+The paper is theory-led rather than literature-led:
 
-## Sections
+`IOTA substrate hypothesis -> ICP -> persistent coherence -> quasiparticle and
+field roles -> emergent mass, energy, geometry, clocks, and macroscopic physics`
 
-### 1. Problem, scope, and claim
+- **IOTA substrate hypothesis:** the irreducible layer consists of
+  informational events or distinctions, relations, and local succession rules.
+  The current IOTA lattice is a concrete candidate realization, not a uniquely
+  established geometry of nature.
+- **IOTA operational definition:** the informational condition is causally
+  retained interaction history embodied in present state and relational
+  topology; informational change is an interaction-caused change in reachable
+  future structure.
+- **ICP:** physically effective information is persistent, embodied constraint
+  on an explicitly indexed family of reachable or probable futures.
+- **Emergence claim:** mass, energy, fields, particles, spacetime measures, and
+  familiar observables are proposed downstream invariants or effective roles,
+  not primitive inputs at the final theory level.
+- **Present boundary:** current project results demonstrate beginnings of
+  constraint transport and bounded role recovery. They do not yet derive the
+  supplied quantum substrate, Born rule, physical clock, mass parameter,
+  interacting QFT, spacetime, or an information-first ontology.
 
-- Introduce information as description, measured uncertainty, physical record,
-  predictive structure, and causally effective constraint.
-- State the candidate recurring motif without claiming ontological primacy.
-- Separate established field result, synthesis inference, and ICP hypothesis.
+The key distinction is between information persisting **beyond its original
+carrier** and information existing **without any physical realization**. ICP
+requires the former and does not assert the latter.
 
-### 2. Method
+## Central research question
 
-- Describe search strata, adversarial searches, screening, extraction,
-  appraisal, and claim-evidence tracing.
-- Explain why the supplied manuscript and IOTA results are out of scope as
-  evidence.
+Can interaction-produced informational constraints persist through replacement
+of their local carrier, compose into coherent collective organizations, and
+recover the operational roles of known physics without importing those roles as
+hidden primitives?
 
-### 3. Shared formal language: constrained future ensembles
+## Central thesis to be evaluated
 
-Use the comparison schema:
+Across control, causal inference, statistical mechanics, quantum theory,
+complex systems, biological organization, and quantum gravity, mature results
+support a recurring structure: histories leave physically instantiated
+distinctions that alter future intervention-response families. IOTA supplies a
+concrete operational program for formation, transport, and succession of those
+distinctions. ICP is scientifically viable only if its combined
+formation--sufficiency--carrier-intervention--robustness criterion adds a new
+invariant, compression, prohibition, or prediction beyond complete ordinary
+dynamics, control/viability theory, predictive-state models, and existing
+causal-semantic information.
 
-`H_t -> M_t -> {P^pi(F[t:t+tau] | M_t) : pi in Pi}`
+## Evidence strata
 
-- `H_t`: realized history;
-- `M_t`: present physical record, organization, or relational structure;
-- `pi`: admissible intervention or control policy;
-- `P^pi`: future path distribution;
-- `R^pi = supp(P^pi)`: reachable support under that model and policy.
+1. **Established field result:** theorem, experiment, or formal construction in
+   its native domain.
+2. **Project constructive evidence:** preregistered or frozen computational
+   construction inside a declared model (IOTA constraint transport and bounded
+   Dirac role recovery).
+3. **Project empirical/computational evidence:** measured corpus or system
+   behavior (the submitted PSA semantic-field study), without recasting it as
+   empirical fundamental physics.
+4. **Cross-domain synthesis inference:** a mapping that survives explicit
+   non-equivalence analysis.
+5. **IOTA/ICP hypothesis:** ontological or universality claim not established by
+   the preceding strata.
 
-Distinguish prediction from intervention and counterfactual comparison. In
-continuous systems, a single path may have zero probability without being
-impossible, so reachability requires a declared topology and support notion.
+## Formal core
 
-Add the entropy profile
+At time `t`, let realized history `H_<=t` leave a present candidate record
+`M_t=(X_t,G_t)`. For intervention family `Pi`, observable algebra `A`, boundary
+and resolution declaration `B`, resource declaration `C`, and horizon `tau`,
+define
 
-`K = (support growth, entropy rate, predictive information, predictive memory,
-rare-event rate, entropy production, transformation monotones)`.
+`E_tau(m; Pi,A,B,C) = {P^pi_A(F_[t,t+tau] | m,B,C) : pi in Pi}`.
 
-Use it only as a set of projections of the future-law family. Retain the full
-path language and allowed-transformation preorder because equal scalar profiles
-can conceal different future structures.
+A constraint is a **comparison**, not a property of one unqualified state:
 
-### 4. The seven literature pillars
+- hard constraint: support inclusion or removal on a common outcome/path space;
+- soft constraint: changed probability weights relative to a declared
+  reference;
+- operational constraint: changed reachability or convertibility preorder under
+  the same allowed operations and resources.
 
-Every pillar follows the same template: native definition, formal result,
-physical carrier, future object, assumptions, strongest ICP mapping, strongest
-non-equivalence, evidence status, and unresolved test.
+A candidate persistent informational carrier must pass four gates:
 
-#### 4.1 Constructor theory: possible and impossible transformations
+1. **Formation:** controlled histories form distinguishable `M_t` candidates.
+2. **Sufficiency:** `M_t` is sufficient for the declared future-law family.
+3. **Carrier intervention:** ablation, transplant, scramble, or replacement of
+   the proposed carrier changes the preregistered future response while matched
+   controls do not.
+4. **Robustness:** the result survives adequate state augmentation and
+   reasonable changes of representation, partition, and coarse-graining, or is
+   explicitly scoped to the representation where it holds.
 
-- Tasks, substrates, constructors, and transformation possibility.
-- ICP extension to realized history, temporal inheritance, repair, and changing
-  reachable sets.
+## Manuscript sections
 
-#### 4.2 Decoherence and quantum Darwinism: selected persistence and records
+### 1. The persistence problem
 
-- Pointer states, environment-induced superselection, and redundant records.
-- Distinguish local effective accessibility from the global Hilbert space.
+- Begin with the motivating question: how can the consequence of an
+  interaction persist after its original bearer changes or disappears?
+- Separate carrier replacement from carrier-free information.
+- State the two functions and the prospective verdict criteria.
 
-#### 4.3 Non-Markovian quantum dynamics: history in the effective process
+### 2. IOTA and ICP
 
-- Process tensors, interventions, memory, and system-environment partitions.
-- Test whether state enlargement removes the apparent historical dependence.
+- Define informational condition and informational change.
+- Declare primitive inventory: events/distinctions, relations, and local
+  succession; distinguish the ontology hypothesis from the current lattice
+  implementation.
+- State ICP through indexed reachable-future families.
+- Present the emergence ladder and current unclosed quantum bridge.
 
-#### 4.4 Computational mechanics: histories equivalent by their futures
+### 3. Critical-synthesis method
 
-- Causal states, future morphs, predictive information, and minimal predictive
-  memory.
-- Distinguish predictive equivalence from intervention-level causation.
+- Call the work a critical integrative synthesis and operational proposal, not
+  a systematic review.
+- Report searches, source strata, adversarial searches, inclusion criteria,
+  appraisal, and the July 20, 2026 search cutoff.
+- Separate project evidence from independent literature.
+- Pair every proposed correspondence with its strongest non-equivalence.
 
-**Worked bridge — Zipf as an adversarial test of causal underdetermination:** A
-Zipfian rank-frequency marginal can arise from independent random typing,
-preferential growth, latent mixtures, least-effort optimization, critical-like
-models, Maximum Entropy, sample-space reduction, and transient undersampling.
-Freeze rank-count, count-distribution, and type-token laws as distinct objects.
-Match histories on final counts, then compare next-event, novelty, and reachable-
-successor laws under within-sequence shuffle, latent conditioning, and mechanism-
-specific interventions. The slope is not evidence; out-of-sample future-law
-discrimination is the scientific target.
+### 4. What the project has demonstrated
 
-#### 4.5 Macrostates and statistical emergence: meaningful predictive state
+#### 4.1 Constraint transport and succession in IOTA
 
-- Dynamical macrostates, path ensembles, Maximum Caliber, large deviations, and
-  coarse-graining.
-- Separate constraints on an inference from constraints physically carried by a
-  system.
+- Disjoint bridge replacement preserving a tracked reachability relation.
+- Address death followed by prospective expression-lineage continuation.
+- Gate, exhaustion, preemption, necessity, redundancy, and sequential-cut
+  interventions.
+- Negative representation result and stopped independent repair-affordance
+  confirmation.
+- Boundary: one simulator law and declared representation; no physical ontology.
 
-**Worked bridge — entropy as a constraint stress test:** Compare Boltzmann
-support, MaxEnt inference, thermodynamic accessibility, entropy production,
-topological and KS entropy, predictive memory, relative entropy, one-shot
-min/max quantities, resource monotones, and algebraic entropy. State the valid
-nested-set theorem behind “constraint lowers entropy,” then show why it does
-not survive changes of measure, dynamics, algebra, operation class, or task.
-The empirical target is a constraint intervention that changes future laws at
-matched ordinary entropy.
+#### 4.2 Bounded Dirac role recovery
 
-#### 4.6 Relational quantum approaches: state and information relative to systems
+- Qualified constructive sufficiency across two prospective local quantum
+  specifications.
+- Exact time-frame relation and withdrawn empirical zone-edge monitor.
+- Supplied quantum substrate, clock, Born map, and mass schedule.
+- Boundary: role recovery is a rung toward, not a derivation of, quasiparticles.
 
-- Relational states, correlations, quantum reference frames, observable
-  algebras, and limits of intrinsic-state language.
+#### 4.3 PSA semantic-field evidence
 
-#### 4.7 Biological organization: recursively maintained constraints
+- Frame-relative relational signatures, disjoint-frame triangulation, calibrated
+  blocking, and negative controls.
+- Boundary: empirical evidence for a relational measurement architecture in an
+  engineered semantic system, not evidence that physical reality is semantic or
+  informational at base.
 
-- Constraint closure, autocatalysis, heredity, self-maintenance, and repair.
-- Treat biological organization as scale-specific unless explicit bridge
-  principles are established.
+### 5. Closest native formalisms and redundancy tests
 
-### 5. Cross-domain structural comparison
+#### 5.1 Control, reachability, and viability
 
-- Present the `H, M, pi, P^pi, R^pi` comparison table.
-- Classify each mapping as verbal, structural, formal, or derivational.
-- Pair every similarity with a non-equivalence.
-- Ask whether a minimal physically embodied record is sufficient for the full
-  admissible intervention-response family.
-- Include the PSA Zipf audit as a methods vignette, explicitly marked project
-  evidence: adaptive heat-trigger subdivision censors mixed-level voxel counts
-  at 21, while common-L1 reconstruction removes the ceiling. Use the failure to
-  demonstrate why representation and pipeline controls precede interpretation.
+- Reachable sets, controlled invariance, viability kernels, and reach-avoid
+  problems already formalize admissible futures.
+- ICP must add history-formed embodiment or useful compression beyond the
+  complete controlled state.
 
-### 6. Quantum-gravitational frontier box: black-hole information
+#### 5.2 Empowerment, causal entropy, and semantic information
 
-Use black-hole information as an extreme stress test of encoding and
-recoverability, cross-referenced mainly to pillars 2, 3, and 6.
+- Option capacity and future-path entropy measure future diversity.
+- Counterfactual semantic information tests viability-relevant correlations.
+- Distinguish scalar option value from a transported physical carrier.
 
-- Page curves, generalized entropy, quantum extremal surfaces, and islands;
-- replica wormholes and their controlled-model scope;
-- entanglement-wedge reconstruction and quantum error correction;
-- scrambling, in-principle recovery, and decoding complexity;
-- the five-level hierarchy: global preservation, algebra-relative
-  distinguishability, logical reconstruction, message recovery, and efficient
-  recovery;
-- the paired 2025–2026 disagreement over proper radiation versus complete
-  asymptotic algebras in massless gravity.
+#### 5.3 Constructor theory and computational mechanics
 
-Do not present controlled AdS/CFT, JT-gravity, bath, or code-model results as an
-empirical resolution for evaporating astrophysical black holes. Generalized
-entropy is not a measure of counterfactual futures, and a Page transition is not
-a literal physical branching event.
+- Possible/impossible tasks and predictive causal states are close formal
+  relatives.
+- Predictive equivalence does not establish carrier causation; task possibility
+  does not by itself encode realized historical succession.
 
-### 7. Rivals, redundancy, and counterevidence
+#### 5.4 Feedback and information thermodynamics
 
-- Complete-state ordinary dynamics;
-- state augmentation or Markovian embedding;
-- epistemic and coarse-graining accounts;
-- standard control and predictive-state theory;
-- causal non-identification from observational distributions;
-- incompatible meanings of constraint across scales;
-- active disputes in gravitational factorization and observable algebras.
+- Measurement records used in feedback connect information to work and
+  dissipation.
+- Native feedback-control models remain sufficient explanations unless ICP
+  predicts an additional carrier-linked effect.
 
-### 8. What would establish ICP as a distinct physical principle?
+### 6. Quantum records, memory, and relational access
 
-- Define an invariant, quantity, prohibition, compression, or novel prediction.
-- Identify the physical carrier and demonstrate its role by intervention.
-- Test representation, partition, and coarse-graining stability.
-- State falsification and redundancy criteria.
+#### 6.1 Process tensors and non-Markovian memory
 
-### 9. Graded conclusions
+- Multi-time intervention-response families closely realize the formal schema.
+- State enlargement and partition choice are mandatory nulls.
 
-- Established results;
-- supported synthesis inferences;
-- qualified or contested inferences;
-- ICP conjectures;
-- rejected or redundant claims;
-- unresolved formal and empirical requirements.
+#### 6.2 Decoherence and Quantum Darwinism
 
-## Planned core tables and boxes
+- Pointer selection, redundant environmental records, stronger objectivity
+  criteria, experiments, and factorization dependence.
+- Redundant present record does not itself constrain later global dynamics.
 
-- Definitions and formal objects by field.
-- `H, M, pi, P^pi, R^pi` cross-domain comparison with non-equivalences.
-- Claim-evidence matrix including qualifying and challenging sources.
-- Rival models and discriminating tests.
-- Box: Zipfian marginals do not identify future-generating mechanisms; matched-
-  marginal sequence interventions reveal the actual ICP question.
-- Box: A Page curve is not a carrier—black-hole information distinguishes
-  global preservation, algebra-relative access, logical reconstruction,
-  message recovery, and efficient recovery.
-- Box: Constraint is upstream of entropy—equal entropy does not identify equal
-  support, predictive memory, transformation preorder, or observable algebra.
+#### 6.3 Relational quantum mechanics and quantum reference frames
+
+- Keep interpretive RQM separate from formal QRF transformations.
+- Frame covariance can be redescription rather than different futures.
+- A distinction is operational only relative to accessible observables and
+  transformations.
+
+#### 6.4 Causal-order boundary
+
+- Scope the main future-after-history formula to a declared operational order.
+- Treat indefinite causal order as a boundary requiring process-functional,
+  rather than ordinary temporal, language.
+
+### 7. Can local organization become particle-like physics?
+
+- Established quasiparticles show that collective excitations can carry stable
+  particle-like quantum numbers without being microscopic primitives.
+- String-net and topological-order models provide explicit local-lattice
+  existence constructions; quantum simulators provide bounded experimental
+  realizations.
+- QCA results recover one-dimensional Dirac and free-fermion field roles, while
+  higher-dimensional and fermion-doubling/no-go results sharply restrict the
+  bridge.
+- These are existence precedents, not evidence that the IOTA lattice is the
+  substrate of our universe.
+
+### 8. Statistics, Zipf, and entropy as adversarial tests
+
+- A Zipf marginal underdetermines mechanism; matched-marginal interventions
+  must discriminate future laws.
+- Constraint is upstream of entropy only under declared state space, measure,
+  algebra, dynamics, operation class, task, and horizon.
+- Equal scalar entropy can hide different support, memory, preorders, algebras,
+  and recovery costs.
+
+### 9. Biology: recursively maintained constraint
+
+- Constraint closure, heredity, transcriptional memory, epistatic path
+  accessibility, autocatalytic networks, and synthetic compartments.
+- Require carrier ablation/rescue, matched chemistry, boundary controls, and
+  ordinary kinetic/genetic explanations first.
+- Biological organization supports scale-specific persistent constraint; it
+  does not establish a universal substrate ontology.
+
+### 10. Black-hole information as a frontier stress test
+
+- Preserve the hierarchy: global preservation, algebra-relative
+  distinguishability, logical reconstruction, message recovery, efficient
+  recovery.
+- Page curves and generalized entropy are not carriers or branching events.
+- Controlled holographic and gravity models do not yet supply an observed
+  astrophysical evaporation channel.
+
+### 11. Adversarial viability audit
+
+Evaluate ICP against:
+
+- complete-state ordinary dynamics;
+- Markovian state augmentation;
+- control/viability and predictive-state redundancy;
+- counterfactual semantic information as close prior art;
+- observer, algebra, partition, and coarse-graining dependence;
+- inferential constraints mistaken for physical carriers;
+- lattice artifacts, preferred-frame and continuum-limit failures;
+- imported quantum primitives, clocks, constants, and target maps;
+- underdetermination by Zipf or entropy summaries;
+- project evidence dependence and lack of external replication.
+
+### 12. Verdict
+
+Use a graded table rather than a binary declaration:
+
+- conceptual coherence;
+- distinctness from prior art;
+- constructive evidence;
+- independent empirical grounding;
+- cross-domain unification;
+- falsifiability;
+- ontology/universality;
+- tractability of the next bridge.
+
+Provisional verdict to be tested in the completed manuscript:
+
+> IOTA/ICP has real scientific legs as a coherent, falsifiable research program
+> and as an operational synthesis of persistent constraint. Bounded project
+> results demonstrate the beginning of the proposed mechanism. Existing science
+> supplies strong precedents for every major component, including emergent
+> quasiparticles, but does not yet establish their integration, an IOTA-to-quantum
+> derivation, or information-first ontology. ICP is therefore a viable proposed
+> principle and research architecture, not an established fundamental law.
+
+### 13. Research path
+
+1. Replicate constraint transport under alternative IOTA laws, schedulers,
+   topologies, and representations.
+2. Identify a minimal persistent coherence with carrier-succession invariants.
+3. Recover quantum state structure, composition, unitary/interventional rules,
+   and Born statistics without importing them.
+4. Produce and manipulate a quasiparticle-like excitation with dispersion,
+   symmetry, conservation, scattering, and robustness gates.
+5. Recover interacting multiparticle/QFT roles and close lattice no-go
+   boundaries.
+6. Derive mass- and energy-like invariants rather than supply their parameters.
+7. Test emergent geometry, clocks, and effective laws under independent
+   physical predictions.
+
+### 14. Conclusion
+
+- State what has begun, what current science permits, what remains unproved,
+  and the next result that would materially change the verdict.
+
+## Companion paper
+
+The lay paper is a separate narrative titled **How the Past Changes What Can
+Happen Next**. It uses no equations and almost no acronyms. It begins with
+carrier replacement, explains IOTA and ICP through ordinary examples and the
+actual project results, gives the viability verdict in plain language, and
+ends with the emergence ladder and explicit ways the idea could fail.

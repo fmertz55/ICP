@@ -1,0 +1,13 @@
+\documentclass{article}
+\usepackage[paperwidth=16in,paperheight=12in,margin=0.20in]{geometry}
+\usepackage{pdfpages}
+\pagestyle{empty}
+\begin{document}
+\includepdf[
+  pages={\PageRange},
+  nup=3x4,
+  frame=true,
+  delta=2mm 2mm,
+  pagecommand={}
+]{\InputPDF}
+\end{document}

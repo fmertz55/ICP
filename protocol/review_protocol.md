@@ -1,9 +1,9 @@
 # ICP structured critical-synthesis protocol
 
-- Protocol version: 0.5
+- Protocol version: 0.6
 - Date: 2026-07-20
 - Status: pilot protocol
-- Review type: structured scoping review with critical integrative synthesis
+- Review type: structured critical-scoping review with integrative synthesis
 
 This project should not be described as a systematic review unless later work
 performs an appropriately exhaustive search, reproducible screening, and an
@@ -79,7 +79,9 @@ mechanism or an ontological principle.
   connection.
 - Generic biological complexity used as evidence for fundamental physics.
 - Tertiary repetition when the primary result is available.
-- The supplied project manuscript and IOTA results as supporting literature.
+- The supplied project manuscripts and IOTA results as supporting literature.
+  They may be analyzed in a separately labeled project-evidence stratum, but
+  never counted as independent validation of their own premises.
 
 No date restriction is imposed during the pilot. Language and full-text access
 limitations must be recorded, not converted into claims of absence.
@@ -137,6 +139,12 @@ sources.
 ## 7. Extraction
 
 Use the note template without replacing a source's terminology with ICP terms.
+During a bounded closure batch, a structured adversarial dossier may serve as
+the note container for several sources only when each source retains a stable
+source-registry row, source-level claim--evidence rows, a primary locator,
+verification status, limitations, and a unique bibliography key. The dossier
+must preserve the source's native claim before giving the ICP mapping. This
+consolidation changes document packaging, not the evidentiary requirements.
 Extract:
 
 - system, model, scale, and system-environment partition;
@@ -213,3 +221,5 @@ contrary evidence, and missing primary sources.
 Report methods and limitations with enough detail to reproduce the search and
 trace every major manuscript claim to evidence rows. Grade conclusions as
 established field result, plausible synthesis inference, or ICP conjecture.
+State the evidence cutoff and call closure conceptual rather than exhaustive.
+List intentionally deferred searches as question-triggered work packages.

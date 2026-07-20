@@ -1,0 +1,557 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.95in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{booktabs,tabularx,array}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+
+\definecolor{icpnavy}{HTML}{183B56}
+\definecolor{icpteal}{HTML}{2B6F77}
+\definecolor{icpgold}{HTML}{A56A18}
+\definecolor{icpgray}{HTML}{5E6870}
+\definecolor{icppale}{HTML}{F1F5F6}
+\definecolor{icpwarm}{HTML}{FBF5EA}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=icpnavy,
+  citecolor=icpteal,
+  urlcolor=icpteal,
+  pdftitle={How the Past Changes What Can Happen Next},
+  pdfauthor={Douglas Clark}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{icpgray}A plain-language companion to the IOTA/ICP scientific synthesis}
+\fancyhead[R]{\footnotesize\color{icpgray}July 2026}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{14pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.72em}
+\setlength{\leftmargini}{1.7em}
+\emergencystretch=2em
+
+\newcommand{\plainbox}[2]{%
+  \begin{center}
+  \colorbox{#1}{\parbox{0.92\linewidth}{\vspace{0.35em}#2\vspace{0.35em}}}
+  \end{center}}
+
+\title{\vspace{-1.2em}\textbf{How the Past Changes What Can Happen Next}\\
+\large A true-layperson guide to IOTA and the Information--Constraint Principle}
+\author{Douglas Clark}
+\date{Plain-language companion --- 20 July 2026}
+
+\begin{document}
+\maketitle
+
+\plainbox{icppale}{\small\textbf{The answer in one paragraph.}
+IOTA and the Information--Constraint Principle are worth pursuing as a
+scientific research program. The project has already shown, inside carefully
+defined computer models, that a useful relational role can disappear in one
+place and reappear through a completely different local arrangement. Other
+sciences show many parts of the larger idea: memories survive their initiating
+events, physical records alter later behavior, and organized quantum systems
+can produce particle-like patterns. But no current result shows that the
+universe is made of an IOTA lattice, that information is the unique foundation
+of nature, or that matter and energy have been derived from it. The idea has
+legs; it has not yet crossed the finish line.}
+
+\section*{The question that started the journey}
+
+How can the effect of something survive after the original thing is gone?
+
+A foot lifts from wet ground, but the footprint remains. A bell stops moving,
+but a recording can reproduce its sound. A virus attacks a bacterium; much
+later, descendants of that bacterium can carry a molecular record of the
+attack. In each case, something about an earlier encounter matters later even
+though the original actor or arrangement is no longer present.
+
+This can sound mysterious only because the word \emph{information} is used for
+several different things. The footprint is not the foot. It is also not a
+ghostly message floating outside the physical world. The mud has been changed.
+The recording is not the bell, but a new physical arrangement carries a usable
+pattern. The bacterial record is not the virus, but molecules in the cell now
+make a different response possible.
+
+That distinction is the starting point for IOTA:
+
+\plainbox{icpwarm}{\small
+Information may persist \emph{beyond its original carrier}. That does not mean
+it persists \emph{without any physical carrier}.}
+
+The deeper question is whether this familiar kind of persistence is a clue to
+something more basic. Could reality be built, at its lowest level, from events,
+relationships, and rules about which events may follow? Could the things we
+usually treat as fundamental---particles, fields, mass, energy, space, and
+time---instead be durable patterns that emerge from that deeper organization?
+
+IOTA explores that possibility. The Information--Constraint Principle, called
+the principle in the rest of this essay, is the proposed bridge between the
+basic layer and the world we know. This paper asks two questions. Does that
+proposal fit what science currently knows well enough to deserve serious work?
+And if it does, what must happen next?
+
+\section*{The idea in ordinary language}
+
+The project's working definition is deliberately practical:
+
+\plainbox{icppale}{\small\textbf{IOTA's premise.}
+Information is a change in what can happen next, caused by an interaction.}
+
+Imagine a railway yard. The same trains can reach different destinations
+depending on how the switches are set. The switches do not push every train to
+one inevitable destination. They shape the routes that are open, closed, easy,
+or unlikely. An earlier worker may set a switch and leave. The worker is gone,
+but the setting still changes the journeys available to later trains.
+
+This is what \emph{constraint} means here. It is not merely a restriction and
+it is not a new invisible force. A constraint can close a path, open a path,
+redirect traffic, or change the odds among paths. A bridge can make a
+destination reachable. A memory can make one response more likely than
+another. An arrangement can preserve useful options at one level while ruling
+out movements at another.
+
+The phrase \emph{what can happen next} also needs care. It never means every
+future anyone can imagine. It means the futures available under stated rules,
+conditions, actions, measuring methods, resources, and time span. A locked
+door is impassable to a person with bare hands, but not to a firefighter with
+an axe. Both statements can be true because they describe different allowed
+actions. Mathematics for reachable and survivable futures already exists in
+control and viability theory \citep{SaintPierre1994Viability,MitchellEtAl2005Reachable}.
+Any new principle must respect and build beyond that work.
+
+IOTA makes a larger proposal about the foundation of physics. Its candidate
+starting layer contains local distinctions, relationships, and rules of
+succession. The present computer lattice is one concrete way to test the idea.
+It is \emph{not} being declared the literal grid of the cosmos. If the research
+program succeeds, familiar physics would have to emerge in stages:
+
+\begin{enumerate}
+  \item interactions produce differences in later possibilities;
+  \item some differences persist and can pass to new physical carriers;
+  \item some become durable, coordinated patterns;
+  \item some patterns acquire particle-like behavior;
+  \item interacting patterns recover fields and conserved quantities; and
+  \item mass, energy, geometry, clocks, and ordinary large-scale physics emerge
+  as reliable features of that organization.
+\end{enumerate}
+
+This is a research ladder, not a list of completed discoveries. The present
+project is near its first rungs.
+
+\section*{What the IOTA project has actually shown}
+
+The cleanest project result concerns a bridge. In the computer model, two
+regions were connected through a local arrangement of cells. That original
+bridge disappeared. Later, the regions became connected again through a new
+bridge that shared no cells with the first one. Removing the new bridge then
+destroyed the renewed connection. The new arrangement was therefore doing the
+work; it was not merely near the place where the work happened
+\citep{Clark2026IotaConstraint}.
+
+The numbers matter. Thirty-six candidate relocation events were replayed.
+Twelve had the right kind of original bridge, and three events across two
+independent starting cases passed the strict replacement test. That is a real
+positive result, but a narrow one. It shows that this kind of role replacement
+\emph{can} happen in the declared model. It does not show that it always
+happens, lasts forever, or occurs in nature.
+
+Follow-up tests made the picture richer. Some relationships survived after the
+original cell addresses died because the project tracked a continuing line of
+expression rather than a fixed address. Some lasted much longer than others.
+Opening a blocked route did not guarantee that the route would eventually be
+used: timing and competing events could close the opportunity first. When an
+observed successor was prevented, the model often found another successor.
+This exposed hidden backups. A role could be necessary only after several
+alternatives had been removed in sequence.
+
+These are useful lessons about possibility. An open route is not the same as a
+realized outcome. A thing that looks necessary may have an unseen substitute.
+A record tied to one address may look dead even while its role continues
+elsewhere. The right object may be a continuing relation, not a marked lump
+moving across the screen.
+
+The project also kept its failures. One proposed way of describing a graph
+role did not pass its full confirmation test. A later independent repair study
+did not collect the minimum number of eligible cases, so its outcome was not
+opened and the idea remains untested. These are not embarrassing details. They
+are evidence that the tests can say no.
+
+A second project asked whether two local quantum models could reproduce a
+limited part of a well-known equation used for electron-like particles. They
+did pass the surviving tests for that limited role \citep{Clark2026DiracRole}.
+But the construction began with quantum rules already supplied. It also
+supplied the clock, the rule that turns a quantum description into measurement
+probabilities, and a mass setting. An audit found a faulty test that had looked
+at an empty part of the data; those results were withdrawn. The audit also
+showed that the two free models were more closely related than first thought.
+
+The honest conclusion is encouraging and restrained: local mechanisms can
+reproduce a bounded piece of known quantum behavior, and the audit improved
+the claim. This is not yet a derivation of quantum theory, a particle, or mass
+from base IOTA.
+
+A third project studied the geometry of meaning in an engineered language
+system \citep{Clark2026PSA}. It showed that relations to fixed reference
+statements can preserve useful structure and that comparisons made from
+separate reference sets can be checked against one another. It also used
+negative controls to show what the method could not establish. This is useful
+evidence about relational measurement. It is not evidence that nature is made
+of language or that an artificial-intelligence embedding is fundamental
+physics.
+
+\section*{What the wider world already teaches us}
+
+The larger scientific literature does not prove IOTA. It does show that the
+program is asking a coherent question and that many pieces of the proposed
+mechanism are physically possible.
+
+\subsection*{Records can leave their source}
+
+In quantum experiments, a system can interact with its surroundings so that
+different pieces of the surroundings carry readable traces of the system.
+Under the right conditions, separate observers can learn the same limited
+fact by measuring different environmental pieces rather than touching the
+source. This area is sometimes called quantum Darwinism. Its lesson is modest
+but important: an interaction can create secondary physical carriers of a
+record
+\citep{OllivierPoulinZurek2004Witness,BrandaoEtAl2015Darwinism,CiampiniEtAl2018DarwinismExperiment,ChenEtAl2019DarwinismExperiment,UndenEtAl2019Classicality}.
+
+It does not follow that every environment makes good records, that the record
+exists without a carrier, or that there is always one uniquely correct way to
+divide the world into ``system'' and ``environment.'' A correlation is not
+automatically an accessible memory, and a memory is not automatically a new
+law of nature. Modern descriptions of multi-step quantum experiments already
+capture how earlier interactions can influence later responses
+\citep{PollockEtAl2018ProcessTensor,PollockEtAl2018Markov}. The principle must
+add something testable beyond a complete version of that account.
+
+\subsection*{Living things are made of maintained history}
+
+Biology supplies especially vivid examples. After certain bacteria survive a
+virus, they can insert a short piece of viral sequence into their own genetic
+record. Editing that record changes which virus they resist later
+\citep{BarrangouEtAl2007CRISPR}. In yeast,
+an earlier period of nutrient shortage can establish a chromatin state that
+outlasts the factor that initiated it and survives several cell divisions.
+Remove the machinery that maintains the mark, however, and the memory fades
+\citep{LightEtAl2010INO1,SumpEtAl2022INO1Memory}.
+
+Evolution also has a path. In a classic protein experiment, researchers built
+every combination of five mutations. Under the experiment's stated conditions,
+only a small fraction of the direct step-by-step routes kept improving at every
+step. Earlier changes made some later changes workable and others damaging.
+The result does not mean that nature had only those routes under every
+population, environment, and time span. It means that history changed
+accessibility under the declared test
+\citep{WeinreichEtAl2006MutationalPaths,HarmsThornton2014Contingency}.
+
+Experiments with self-copying molecules and cell-like compartments tell a
+similar story. Cooperative networks can amplify one another. Boundaries can
+protect useful replicators from parasites. Yet self-copying, self-maintenance,
+heredity, and open-ended evolution are not the same achievement. Many synthetic
+systems still depend on researchers supplying food, enzymes, timing, or
+division. Biology therefore supports physically maintained, history-dependent
+constraint. It does not establish a new foundation of physics
+\citep{LincolnJoyce2009RNAReplication,VasasEtAl2010Evolvability,VaidyaEtAl2012CooperativeRNA,IchihashiEtAl2013RNACompartment}.
+
+\subsection*{Information can change the work a machine can obtain}
+
+A controller that records where a tiny moving particle is can use that record
+to choose a later action and gain free energy---energy available to do useful
+work. This has been shown in a laboratory experiment and fits established
+thermodynamic accounting
+\citep{SagawaUeda2010Feedback,ToyabeEtAl2010InformationEnergy}. The information
+is not free magic: the measuring device, memory, controller, reset procedure,
+heat bath, and allowed actions all matter.
+
+A 2026 experimental preprint gives a close modern example. A visible particle
+in a complex fluid appeared to remember its history because hidden parts of
+the surrounding fluid relaxed slowly. Using delayed measurements, researchers
+reported extracting work associated with that hidden memory
+\citep{MurugaEtAl2026HiddenDegrees}. This is exciting precisely because it
+makes the boundary clear. The memory is outside the currently observed
+particle, but it remains physically carried by the environment. Once those
+hidden parts are included, ordinary physics may fully explain the effect.
+
+\subsection*{Particle-like things can emerge from organized many-part systems}
+
+The word \emph{particle} can suggest a tiny hard bead. Physics is subtler.
+Inside materials and engineered quantum systems, coordinated disturbances can
+behave like particles: they can travel, carry charge-like properties, collide,
+or obey unusual exchange rules. Physicists call these collective objects
+\emph{quasiparticles}.
+
+A stadium wave is a useful first picture, as long as we do not mistake it for a
+quantum theory. The wave moves around the stadium while individual people only
+stand and sit. The moving pattern has a life and behavior not captured by
+following one person. In real quantum systems, the collective behavior is far
+richer and is backed by exact models and controlled experiments. Local quantum
+models can produce fractional and particle-like excitations
+\citep{LevinWen2005StringNet,Kitaev2006Anyons}; quantum processors and atomic
+gases have engineered and measured striking examples
+\citep{IqbalEtAl2024NonAbelian,DharEtAl2025Anyonization}.
+
+This defeats a blanket objection: particle-like behavior \emph{can} emerge
+from organized local ingredients. It does not prove that IOTA's present
+patterns are particles. Every example just named already assumes quantum
+mechanics. A cellular quantum model can approach a limited free-field theory
+in one dimension, while related constructions face serious barriers in higher
+dimensions \citep{MlodinowBrun2020QCAQFT}. IOTA must build the quantum layer it
+currently borrows.
+
+\section*{Three tempting clues that are not proof}
+
+Some of the most exciting subjects in science are useful to this project
+because they expose mistakes the project must avoid.
+
+\subsection*{Zipf's law: the same shape can have many causes}
+
+Put words in order from most common to least common and their frequencies often
+fall in a remarkably regular way. Similar rank patterns appear in other kinds
+of data. This is Zipf's law. It is tempting to see such a clean curve as the
+signature of a deep organizing principle.
+
+But very different mechanisms can make Zipf-like patterns: random text,
+growth with preferential reuse, hidden variables, least-effort models, and
+history-dependent shrinking of the available choices all produce related
+shapes under different conditions
+\citep{Simon1955Skew,Li1992RandomTexts,FerrerCanchoSole2003LeastEffort,SchwabEtAl2014LatentVariables,CorominasMurtraEtAl2015SSR}.
+Even deciding whether data truly follow a power law requires careful comparison
+with rival distributions \citep{ClausetEtAl2009PowerLaws}.
+
+So a Zipf curve cannot prove IOTA. At best it can suggest a question. The useful
+test would hold the visible rank curve nearly the same while changing the
+history or the proposed carrier, then ask whether later responses differ. If
+two systems share the curve but not their future behavior, the pattern alone
+was never the mechanism.
+
+\subsection*{Entropy: one number can hide different futures}
+
+Entropy is not one universal synonym for disorder. In communication, it can
+measure uncertainty in a set of messages \citep{Shannon1948Communication}. In
+thermodynamics, it is tied to physical states, heat, work, and the direction of
+large-scale change \citep{Boltzmann1877Relationship,LiebYngvason1999SecondLaw}.
+Other entropies describe dynamical unpredictability, quantum resources, or
+coarse-grained descriptions.
+
+Constraint and entropy are related, but neither simply replaces the other.
+Closing paths can lower uncertainty in one description. Maintaining a living
+cell can keep a narrow set of local conditions by releasing heat elsewhere.
+Two systems can have the same entropy value while allowing different outcomes,
+remembering different histories, or requiring different resources to reverse.
+The answer changes when we change which states count as distinct, what can be
+measured, what actions are allowed, and how long we wait.
+
+For the principle, entropy is therefore a check, not a shortcut. Every claim
+must state the menu of states, the probabilities or physical measure, the
+boundary, the allowed actions, and the time span. A claim that merely renames
+low entropy as ``more constraint'' would add little. More promising is to ask
+whether an embodied record changes the structure of future paths even when a
+single entropy score is held fixed. Work connecting prediction and wasted
+energy shows why stored history can matter without making information a new
+substance \citep{StillEtAl2012Prediction}.
+
+\subsection*{Black holes: preservation is not the same as recovery}
+
+Black holes make the persistence question unavoidable. If an object falls in
+and the black hole later evaporates, what happens to the distinctions that once
+described the object? Modern theory has made major progress. Calculations in
+controlled gravitational models can reproduce the expected rise and fall of
+the radiation's entropy, often called a Page curve
+\citep{Page1993Information,AlmheiriEtAl2019BulkEntropy,PeningtonEtAl2022ReplicaWormholes}.
+Ideas from quantum error correction also explain how information about one
+region can be represented in a distributed and indirect way
+\citep{AlmheiriDongHarlow2015QEC}.
+
+But several questions must not be collapsed into one. Is information preserved
+in the complete state? Can a chosen set of measurements distinguish it? Can it
+be reconstructed in principle? Can an actual observer recover a message? Can
+that recovery be done before the required time or machinery becomes absurd?
+Computational barriers can separate ``present in principle'' from ``usable''
+\citep{HarlowHayden2013Computation}.
+
+Page curves, islands, and reconstruction maps are not identified physical
+carriers in the simple sense of a memory chip or a molecule. The strongest
+results are theoretical and often belong to carefully controlled models, not
+to observed evaporation of an astrophysical black hole. Black-hole information
+theory is therefore an exceptional stress test for the principle's language of
+carriers, access, boundaries, and recovery. It is not evidence that IOTA is the
+substrate of the universe.
+
+\section*{The strongest skeptical answer}
+
+A critic can make a powerful and simple objection:
+
+\plainbox{icpwarm}{\small
+If we know the complete physical state, the laws, the allowed actions, and the
+boundary, then ordinary physics already tells us the possible futures.
+Calling part of that state ``information'' and its effects ``constraint'' may
+only rename what was already there.}
+
+This objection is not a misunderstanding. It is the main scientific test.
+Control theory already calculates reachability. Predictive models already
+group histories that lead to the same future probabilities. Causal methods
+already ask what changes after an intervention. One established framework even
+scrambles correlations and measures whether an organism-like system remains
+viable \citep{KolchinskyWolpert2018Semantic}. The broad claim ``information
+changes future possibilities'' is not new.
+
+For the proposed principle to become more than a useful viewpoint, carrier
+succession must earn at least one concrete payoff. It might reveal a smallest
+physical description that predicts all relevant responses. It might identify
+a feature that remains stable across very different physical realizations. It
+might prove that some transformation is impossible. It might compress many
+intervention results better than existing methods. Best of all, it might make
+a new prediction that ordinary complete-state accounts do not make.
+
+If none of those happens, IOTA could still offer a productive vocabulary and a
+good way to design experiments. It would not be a distinct law of physics.
+
+\section*{The honest verdict}
+
+The verdict is positive, but graded:
+
+\plainbox{icppale}{\small\textbf{IOTA and the principle have real scientific
+legs as a research program and an operational way to connect persistent
+records with future possibilities. They are not established as a fundamental
+law or as the foundation of nature.}}
+
+That conclusion rests on more than analogy. The central question can be tested.
+The project has produced bounded causal demonstrations, including replacement
+of an original bridge by a disjoint successor. Independent sciences establish
+that records can be physically copied, maintained, moved, and used; that
+history can reshape biological and thermodynamic responses; and that local
+quantum organization can support particle-like roles. There is also a clear
+sequence of experiments that could strengthen or defeat the larger proposal.
+
+The ceiling on the conclusion matters just as much. The positive IOTA results
+come from one family of computer rules and representations. The quantum work
+starts with quantum mechanics rather than deriving it. No external experiment
+has tested the full carrier-replacement criterion as an IOTA prediction. No
+result derives mass, energy, space, time, or the known laws from an
+informational substrate.
+
+\subsection*{What we know}
+
+\begin{itemize}
+  \item Earlier interactions can leave physical records that affect later
+  responses.
+  \item Such records can outlast the event, object, or local arrangement that
+  first created them while remaining carried by something physical.
+  \item Reachable futures depend on rules, state, boundary, allowed actions,
+  resources, and time span.
+  \item Collective quantum organization can produce genuine particle-like
+  behavior.
+  \item The IOTA model has produced limited, intervention-tested examples of a
+  relational role continuing through local carrier replacement.
+\end{itemize}
+
+\subsection*{What we infer}
+
+\begin{itemize}
+  \item Formation, persistence, and transfer of constraint may be a useful
+  common language across physics, biology, and complex systems.
+  \item Carrier succession may be a better target than searching for a tiny
+  object that literally transports a payload.
+  \item A ladder from persistent relations to coherent collective objects is
+  scientifically plausible enough to attempt.
+\end{itemize}
+
+These are synthesis judgments. They are not results proved by any one cited
+field.
+
+\subsection*{What we do not know}
+
+\begin{itemize}
+  \item Whether information, rather than matter, energy, quantum fields, or
+  some other structure, is the most basic layer of nature.
+  \item Whether the current IOTA rules describe anything beyond their computer
+  model.
+  \item Whether IOTA can generate quantum states and measurement probabilities
+  without putting them in by hand.
+  \item Whether its persistent patterns can become robust particles, interact,
+  and recover known symmetries and conservation laws.
+  \item Whether mass, energy, geometry, and clocks can emerge from the proposed
+  substrate.
+  \item Whether the principle will produce a prediction unavailable to a
+  complete ordinary physical account.
+\end{itemize}
+
+\section*{How the idea earns the next rung}
+
+The next work should be less about collecting suggestive examples and more
+about forcing the proposal through hard gates.
+
+First, repeat the carrier-replacement result with different local rules,
+update schedules, network shapes, and descriptions. If the effect vanishes
+whenever the bookkeeping changes, it is probably an artifact.
+
+Second, identify the smallest persistent pattern that survives replacement.
+Prepare the same visible present by different histories. Then preserve, erase,
+swap, scramble, or rewrite the suspected carrier while matching ordinary
+energy, material, timing, and control differences. Apply the same later tests.
+This asks whether the record itself does causal work or merely marks an
+uncontrolled difference.
+
+Third, build the quantum layer rather than assume it. The project must explain
+how alternatives combine, why quantum probabilities have their familiar form,
+and how separated systems compose. Failure here would stop the path to our
+known physics even if carrier succession remained interesting on its own.
+
+Fourth, create a true particle-like excitation. It should be possible to make
+and remove it, locate it within a stated accuracy, measure how it travels,
+combine or exchange it with another, scatter it from a controlled obstacle,
+identify conserved features, and show that its role survives changes of local
+carrier and reasonable changes of description.
+
+Fifth, move from isolated excitations to interacting field behavior while
+confronting known reasons some grid-based models fail. Only after that should
+the project claim to derive mass-like or energy-like quantities. A supplied
+mass knob is not an emergent mass.
+
+Finally, make a risky physical prediction. The strongest future experiment
+would state in advance where the principle and the best complete ordinary
+model expect different results. If careful state enlargement always removes
+the difference, if no stable carrier role survives representation changes, or
+if the quantum bridge cannot be built without hiding quantum rules in the
+starting machinery, the fundamental version of the program should be lowered
+or abandoned.
+
+That is not a weakness. A proposal with clear ways to fail is finally becoming
+science.
+
+\section*{Where this leaves us}
+
+The original question survives the review in a sharper form. We do not need to
+imagine information detached from the physical world. We need to understand
+how an interaction builds a role, how that role can move through changing
+physical realizations, and how its presence changes the futures available
+under a stated test.
+
+Science already shows that footprints can become records, records can guide
+machines and organisms, and organized many-part systems can behave like new
+objects. IOTA has demonstrated a small but genuine beginning: under frozen
+rules, a relational bridge role can be lost locally and restored through a
+causally necessary successor. The remaining distance is enormous. Quantum
+structure, particles, fields, mass, energy, geometry, and a distinguishing
+prediction are still ahead.
+
+The right conclusion is neither ``proved'' nor ``just philosophy.'' It is more
+interesting than either. The idea is coherent, testable, partly constructed,
+and still exposed to decisive failure. We should continue---with the evidence
+labels attached, the skeptical alternatives kept in the room, and every new
+rung earned.
+
+\bibliographystyle{unsrtnat}
+\bibliography{library/references}
+
+\end{document}

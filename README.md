@@ -3,9 +3,17 @@
 ## Purpose
 
 This project critically evaluates the proposed **Information-Constraint
-Principle (ICP)**: physically embodied organization, potentially including
-records of prior interactions, can restrict or reweight the future states and
-transformations available to a system.
+Principle (ICP)** within the larger **IOTA information-first research
+program**. IOTA is the grounding hypothesis: informational distinctions,
+relations, and local succession rules are proposed as the primary substrate,
+with familiar physical structure emergent. ICP is the operational bridge:
+physically effective information is an interaction-formed, embodied constraint
+on a declared family of reachable or probable futures, and it may persist when
+that constraint role is lawfully re-instantiated beyond its original carrier.
+
+The present IOTA lattice is a candidate realization, not an established or
+uniquely selected cosmic geometry. Likewise, persistence beyond an original
+carrier does not mean existence without any physical realization.
 
 **Nomenclature is fixed:** ICP always expands to Information-Constraint
 Principle. Terms such as *proposed*, *candidate*, or *not yet established*
@@ -13,15 +21,50 @@ describe its evidentiary status; they do not change its name. The project is
 testing whether the recurring cross-domain structure is genuinely distinct and
 what would be required to establish the principle scientifically.
 
-The grounding target is ICP in general. The supplied Dirac operational-role
-manuscript is one possible downstream application or test case; it does not
-define the review's inclusion criteria, vocabulary, or evidentiary direction.
+The grounding target is the whole IOTA-to-physics ladder, not a review of
+documents favorable to the Dirac result. The supplied Dirac operational-role
+manuscript is one downstream constructive rung. It currently assumes a quantum
+substrate, clock, Born readout, and mass schedule; it does not derive them from
+base IOTA.
 
 The project is designed to evaluate that proposition, not to validate it. A
 scientifically useful result may support, narrow, reformulate, render redundant,
 or reject ICP.
 
-## Current status
+## Current status and verdict
+
+The bounded literature closure and manuscript architecture are complete at the
+20 July 2026 evidence cutoff. Eight synthesis batches cover the formal core,
+Zipf, black-hole information, entropy, control/causal information/information
+thermodynamics, quantum records/reference frames/causal order, biological
+organization, and emergent quasiparticles.
+
+The resulting verdict is positive but graded:
+
+> IOTA/ICP has real scientific legs as a coherent, falsifiable research
+> program and as an operational synthesis of persistent constraint. Bounded
+> project results demonstrate beginnings of the proposed mechanism. Existing
+> science supplies strong precedents for every major component, but it does not
+> yet establish their integration, an IOTA-to-quantum derivation, or an
+> information-first ontology. ICP is therefore a viable proposed principle and
+> research architecture, not an established fundamental law.
+
+The strongest redundancy challenge is complete-state ordinary dynamics: once
+all causally relevant physical variables, correlations, controls, resources,
+boundaries, and laws are included, no additional historical variable may
+remain. ICP earns distinct physical content only through a new invariant,
+compression, prohibition, or prediction that survives carrier intervention,
+state augmentation, and reasonable changes of representation.
+
+Read the current products in this order:
+
+1. `synthesis/viability_verdict.md`
+2. `manuscript/outline.md`
+3. `output/pdf/iota_icp_scientific_synthesis.pdf`
+4. `output/pdf/how_the_past_changes_what_can_happen_next.pdf`
+5. the eight bounded reports in `synthesis/pilot_batch_*.md`
+
+### Completed evidence batches
 
 Pilot Batch 01 is complete for the formal core: constructor theory, quantum
 process memory, computational mechanics, macrostates/path ensembles, and causal
@@ -57,10 +100,37 @@ constraint can restrict support, reweight paths, change an operation preorder,
 or alter an observable algebra without having one universal scalar signature.
 Equal entropy does not imply equal counterfactual futures.
 
-Start with `synthesis/pilot_batch_01_formal_core.md`, then read
+Pilot Batch 05 closes control, viability, empowerment, causal information,
+counterfactual semantic information, and feedback thermodynamics. Its decisive
+result is that generic future-option language is already mature prior art. The
+defensible ICP novelty target is formation and transport of a physical
+constraint role through replacement of the original witness.
+
+Pilot Batch 06 closes Quantum Darwinism, relational quantum mechanics, quantum
+reference frames, and the bounded causal-order frontier. Laboratory work
+supports records distributed into secondary carriers. It does not support
+carrier-free information, a unique system/environment factorization, or an
+inherited future-law variable beyond a complete quantum state.
+
+Pilot Batch 07 closes biological organization, memory, heredity, path
+accessibility, autocatalysis, and synthetic compartments. Biology supplies
+strong carrier-edit examples of history becoming embodied organization that
+changes later response. Ordinary genetic, chemical, energetic, and dynamical
+accounts remain the first null; the literature does not establish an
+information-first ontology.
+
+Pilot Batch 08 closes the quasiparticle existence question. String-net and
+topological-order models, quantum simulators, and lattice quantum field
+constructions demonstrate that local quantum organization can support
+particle-like collective roles. They do not yet bridge a non-quantum base IOTA
+substrate to quantum state structure.
+
+For the source-by-source trail, start with
+`synthesis/pilot_batch_01_formal_core.md`, then read
 `synthesis/pilot_batch_02_zipf_mechanism_discrimination.md`,
 `synthesis/pilot_batch_03_black_hole_information.md`, and
-`synthesis/pilot_batch_04_entropy_constraint.md`. Project-generated
+`synthesis/pilot_batch_04_entropy_constraint.md`, followed by batches 05--08.
+Project-generated
 PSA evidence is quarantined from the literature synthesis under
 `project_evidence/`; its first audit discovered an adaptive-routing censoring
 boundary that invalidates a naive fit to the stored mixed-resolution voxel
@@ -106,8 +176,8 @@ dependence disappears when the system state is enlarged.
   consequential claims.
 - Use primary sources for technical claims; use reviews mainly for orientation
   and citation discovery.
-- Do not use the supplied manuscript or IOTA simulation results as evidence in
-  this literature-only synthesis.
+- Keep supplied manuscripts and IOTA simulation results in a separate project-
+  evidence stratum; do not count them as independent literature validation.
 
 ## Project structure
 

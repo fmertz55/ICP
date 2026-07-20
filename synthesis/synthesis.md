@@ -1,12 +1,16 @@
 # Working synthesis
 
-This is an evolving critical synthesis, not a repository of favorable
-quotations. The detailed first result is in
+This is a bounded critical synthesis at the 20 July 2026 cutoff, not a
+repository of favorable quotations and not a systematic review. IOTA supplies
+the grounding hypothesis; ICP is the operational bridge under evaluation. The
+detailed first result is in
 `pilot_batch_01_formal_core.md`; the first mechanism-discrimination result is in
 `pilot_batch_02_zipf_mechanism_discrimination.md`; the quantum-gravitational
 frontier stress test is in `pilot_batch_03_black_hole_information.md`; the
 cross-cutting entropy analysis is in
-`pilot_batch_04_entropy_constraint.md`. Every
+`pilot_batch_04_entropy_constraint.md`; bounded closures for control/causal
+information/thermodynamics, quantum records/reference frames, biological
+organization, and emergent quasiparticles are in batches 05--08. Every
 statement below is traceable through `../analysis/claim_evidence_matrix.csv`.
 
 ## 1. Operational vocabulary
@@ -203,3 +207,95 @@ Use criteria `F001`–`F020`. The general priority design is:
   relational observables, a physical carrier test for any sequence result, a
   nonperturbative single-theory evaporation channel for realistic gravity, and
   the operational status of complete versus proper radiation algebras.
+
+## 10. Bounded closure: control, causal information, and thermodynamics
+
+Reachability, viability, empowerment, causal entropy, information flow,
+counterfactual semantic information, and feedback thermodynamics jointly
+preempt the generic claim that information or present organization changes
+future options. The Muruga et al. 2026 preprint is a close physical analogy:
+memory hidden from a visible coordinate can later support work extraction, but
+an enlarged state restores an ordinary Markovian/free-energy account.
+
+The remaining defensible novelty target is narrower: an interaction forms a
+physical constraint role; its original witness ceases to instantiate the role;
+a successor preserves a registered intervention-response family; and editing
+that successor changes the future under matched controls. This target is not
+yet a general field result.
+
+## 11. Bounded closure: quantum records, frames, and causal order
+
+Decoherence and Quantum Darwinism support interaction-generated records in
+secondary physical carriers, including controlled demonstrations of redundant
+imprints. The evidence ladder must remain explicit:
+
+`decoherence != pointer selection != redundant encoding != accessible consensus
+!= spectrum-broadcast objectivity != inherited future constraint`.
+
+Factorization is a major null because the redundantly recorded observable can
+depend on the system/environment decomposition. Relational quantum mechanics
+and quantum reference frames impose relational and operational discipline but
+are non-equivalent programs and do not add an accumulated memory law. Likewise,
+controlled gate order, causal nonseparability, causal-inequality violation,
+indefinite spacetime structure, and emergent causality are different claims.
+
+The decisive bridge is a carrier preserve/erase/swap/scramble intervention with
+matched present state and a process-family or reachable-set readout. Complete
+standard quantum dynamics on the enlarged state remains the leading null.
+
+## 12. Bounded closure: biological organization
+
+CRISPR immunity, chromatin memory, epistatic path dependence, autocatalytic
+networks, and synthetic compartments provide strong examples of
+history-produced, physically embodied organization that changes later
+responses. They also demonstrate component turnover and carrier editing without
+requiring carrier-free information. Ordinary genetic, chemical, energetic, and
+kinetic explanations are successful native accounts.
+
+Biology therefore supports ICP as a scale-bounded experimental program. It
+does not establish a universal physical principle or information-first
+ontology. Counterfactual semantic information and causal-leverage density are
+especially close prior art because they already intervene on information-
+bearing structure and measure changes in future viability or trajectory
+distributions.
+
+## 13. Bounded closure: quasiparticle emergence
+
+String-net condensation, topological order, quantum simulators, and lattice
+field constructions establish that local quantum organization can generate
+collective excitations with particle-like statistics, charges, transport, and
+effective field roles. This is a genuine existence proof for a downstream
+emergence rung. It is not a derivation from a pre-quantum IOTA substrate because
+the cited constructions begin with quantum state structure and dynamics.
+
+The appropriate IOTA test is consequently operational: creation/annihilation,
+dispersion, composition, symmetry, conservation, scattering, robustness, and
+scaling must be recovered from a previously derived quantum coherence rather
+than inserted as a target map.
+
+## 14. Final viability verdict and path
+
+**IOTA/ICP has real scientific legs as a coherent, falsifiable research program
+and operational synthesis. It is not yet an established fundamental law or
+ontology.** Bounded IOTA interventions demonstrate beginnings of constraint
+transport and succession; the Dirac project demonstrates a later role under
+supplied quantum structure; PSA supplies project evidence for relational
+measurement discipline. None is independent validation of the substrate.
+
+The forward ladder is:
+
+1. replicate carrier succession across laws, schedulers, topologies, and
+   representations;
+2. isolate a minimal persistent coherence;
+3. derive quantum composition, dynamics, and probability without importing
+   them;
+4. construct a manipulable quasiparticle role;
+5. recover interacting field roles and close lattice no-go boundaries;
+6. derive mass- and energy-like invariants; and
+7. recover operational geometry, clocks, and a distinguishing physical
+   prediction.
+
+The program should narrow or stop if complete-state augmentation repeatedly
+removes the historical variable, matched carrier edits have no effect,
+reasonable representation changes destroy the role, or the quantum and field
+targets must be supplied rather than derived.

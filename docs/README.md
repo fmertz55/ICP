@@ -1,5 +1,17 @@
 # Project documents
 
+These files supply project context and project evidence. They are not counted
+as independent literature validation in the synthesis.
+
+- `iota_constraint_transport_manuscript.pdf` --- the current IOTA foundation
+  and bounded constraint-transport/succession evidence.
+- `quantum_dirac_operational_role_manuscript.pdf` --- bounded quantum Dirac
+  role recovery; a downstream rung that supplies its quantum layer.
+- `psa_semantic_field_manuscript.pdf` --- submitted relational semantic-field
+  study; methods and empirical project evidence outside fundamental physics.
+- `first_icp_paper_scoping_discussion.md` --- the conversation that motivated
+  the initial literature architecture; preserved as context, not doctrine.
+
 `quantum_dirac_operational_role_manuscript.pdf` was copied from:
 
 `/Users/douglasclark/iota/output/pdf/quantum_dirac_operational_role_manuscript.pdf`
