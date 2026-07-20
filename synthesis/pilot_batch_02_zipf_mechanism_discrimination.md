@@ -298,12 +298,17 @@ not by themselves manipulate a physical memory carrier.
 - PSA mixed-resolution voxel counts cannot be fitted naively because adaptive
   subdivision censors them at 21.
 
-## Consequence for the name
+## Consequence for ICP
 
-This batch strengthens the earlier naming recommendation: retain **ICP** as the
-umbrella, but expand it as the **Information–Constraint Program**, not yet the
-Information–Constraint Principle. Zipf is an exemplary program test because it
-can defeat the weak claim while sharpening a stronger operational one.
+This batch does not change the name: **ICP = Information–Constraint Principle**.
+It changes the evidentiary burden. Zipf cannot establish the principle from a
+static marginal, but it can defeat that weak claim while sharpening the distinct
+operational object ICP proposes: a physically embodied, history-conditioned
+restriction or reweighting of intervention-indexed future laws.
+
+Whether that recurring object yields a new invariant, prohibition, or empirical
+advantage beyond complete standard mechanisms remains open. That is the status
+of the principle, not a reason to rename it.
 
 The paper-level technical claim should be narrower: **matched-marginal
 future-law discrimination**. It asks whether an identified present state adds

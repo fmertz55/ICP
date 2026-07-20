@@ -159,7 +159,7 @@ a literal physical branching event.
 - incompatible meanings of constraint across scales;
 - active disputes in gravitational factorization and observable algebras.
 
-### 8. What would make ICP a principle?
+### 8. What would establish ICP as a distinct physical principle?
 
 - Define an invariant, quantity, prohibition, compression, or novel prediction.
 - Identify the physical carrier and demonstrate its role by intervention.

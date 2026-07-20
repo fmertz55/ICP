@@ -2,10 +2,16 @@
 
 ## Purpose
 
-This project critically evaluates a candidate Information-Constraint Principle
-(ICP): physically embodied organization, potentially including records of prior
-interactions, can restrict or reweight the future states and transformations
-available to a system.
+This project critically evaluates the proposed **Information-Constraint
+Principle (ICP)**: physically embodied organization, potentially including
+records of prior interactions, can restrict or reweight the future states and
+transformations available to a system.
+
+**Nomenclature is fixed:** ICP always expands to Information-Constraint
+Principle. Terms such as *proposed*, *candidate*, or *not yet established*
+describe its evidentiary status; they do not change its name. The project is
+testing whether the recurring cross-domain structure is genuinely distinct and
+what would be required to establish the principle scientifically.
 
 The grounding target is ICP in general. The supplied Dirac operational-role
 manuscript is one possible downstream application or test case; it does not
@@ -157,11 +163,12 @@ includes a mechanism/status matrix in `analysis/black_hole_information_matrix.cs
 and a paired map of the live algebra dispute in
 `analysis/black_hole_frontier_disagreement.csv`.
 
-## Novelty gate
+## Novelty and establishment gate
 
-Before ICP is called a principle, the project must identify at least one
-well-defined quantity, invariant, prediction, prohibition, explanatory
-compression, or experimental discriminator that is not already supplied by a
-fully specified standard dynamical model. If it cannot, the honest product is a
-constraint-based synthesis or research heuristic rather than a new physical
-principle.
+To establish ICP as a distinct physical principle, the project must identify at
+least one well-defined quantity, invariant, prediction, prohibition,
+explanatory compression, or experimental discriminator that is not already
+supplied by a fully specified standard dynamical model. If it cannot, the honest
+conclusion is that the Information-Constraint Principle remains a proposed
+constraint-based synthesis or research heuristic rather than an independently
+established physical principle.

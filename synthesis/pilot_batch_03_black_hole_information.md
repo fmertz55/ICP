@@ -364,16 +364,23 @@ indexing vocabulary but not a new physical principle in this domain.
 - a universal counterfactual-future measure;
 - ICP as a new law of quantum gravity.
 
-## 10. Implication for the name and publication plan
+## 10. Implication for the principle and publication plan
 
-Keep **ICP = Information–Constraint Program**.
+Keep **ICP = Information–Constraint Principle**.
 
-Black-hole theory strengthens “Program” because it reveals a productive common
-question—what distinctions survive for which operations, observables, and
-resources—while also showing why “Principle” would overclaim. The entropy,
-channel, algebra, QEC, and complexity formalisms already do the native physics.
-ICP earns distinct value only if it provides a cross-domain theorem, invariant,
-or experiment that those formalisms do not already supply.
+Black-hole theory strengthens the case that ICP is identifying a distinct
+cross-domain question: what physically encoded distinctions survive for which
+operations, observables, and resources, and how do those distinctions constrain
+the future laws available to a system? The name states the proposed principle;
+the evidence grades state how far it has been established. Those are separate
+matters.
+
+The entropy, channel, algebra, QEC, and complexity formalisms still do the native
+physics. ICP earns status as an independently established physical principle
+only if it provides a cross-domain theorem, invariant, prohibition, or
+experiment that those formalisms do not already supply. Until then, the honest
+description is **the proposed Information–Constraint Principle**, not a
+different expansion of ICP.
 
 Paper 1 should retain a bounded frontier box. A full Paper 3 can develop the
 five-level hierarchy, the current algebra/island disagreement, and the
