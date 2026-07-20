@@ -1,9 +1,9 @@
 # ICP research expansion: statistics, Zipf, and black-hole information
 
 - Date scoped: 2026-07-19
-- Status: research agenda; the Zipf stratum is now completed as Pilot Batch 02
-  under protocol 0.3; quantum and black-hole sources remain candidates pending
-  protocol-based screening and extraction
+- Status: research agenda with both stress-test strata completed: Zipf as Pilot
+  Batch 02 under protocol 0.3 and black-hole information as Pilot Batch 03
+  under protocol 0.4
 - Governing constraint: preserve the original seven-pillar first-paper
   architecture
 
@@ -182,13 +182,15 @@ discriminated by predictions beyond the fitted exponent.
 
 ### 3.1 Why this is a frontier test
 
-Black-hole information theory forces four notions apart:
+Black-hole information theory forces five notions apart:
 
 1. information present in a global quantum state;
 2. information distinguishable relative to an observable algebra;
-3. information reconstructable from a subsystem or code;
-4. information efficiently recoverable with finite computational and physical
-   resources.
+3. a logical algebra reconstructable from a subsystem or code;
+4. a specified message or reference correlation recoverable by an allowed
+   decoder;
+5. that recovery executable within finite time, energy, precision, copy, and
+   computational resources.
 
 This is highly relevant to ICP because persistence and accessibility can diverge
 sharply. It is not direct evidence for ICP, and controlled model results must not
@@ -244,7 +246,7 @@ correlations of Hawking radiation.
 - [Matsuo, universal structure of islands in evaporating black holes](https://doi.org/10.1007/JHEP03%282025%29068)
   studies the location of quantum extremal surfaces across general model
   classes.
-- [Antonini et al., An apologia for islands](https://arxiv.org/abs/2506.04311)
+- [Antonini et al., An apologia for islands](https://doi.org/10.1007/JHEP10%282025%29034)
   argues for islands and observable Page curves with massless gravity and no
   external reservoir in several settings.
 - [Geng, mechanism behind information encoding for islands](https://doi.org/10.1007/JHEP03%282026%29037)
@@ -254,6 +256,12 @@ correlations of Hawking radiation.
   argues that complete asymptotic observable algebras already contain interior
   information and that nontrivial Page curves require restricted access or a
   nongravitating bath.
+- [Kumar, Massless Islands in Wedge Holography](https://arxiv.org/abs/2606.00488)
+  supplies a June-2026 ghost-free local endpoint model with an extra defect-CFT
+  entropy term, but not a fully backreacted evaporation or algebra analysis.
+- [Dar, Kajuri, and Panigrahi, CGHS asymptotic algebras](https://arxiv.org/abs/2606.09346)
+  proves a chiral asymptotic-recovery result in a two-dimensional model and
+  argues tension with an island assignment, without settling realistic gravity.
 
 The massless-gravity, factorization, and asymptotic-algebra debate is active. It
 should be represented as a live disagreement, not collapsed into consensus.
@@ -296,17 +304,15 @@ Compare generalized entropy, islands, observable algebras, quantum error
 correction, scrambling, and resource-bounded recovery without claiming that
 controlled models settle astrophysical information loss.
 
-## 5. Immediate next steps
+## 5. Next integration steps
 
-1. Register and screen the seed sources rather than treating this agenda as an
-   evidence table.
-2. Draft the common comparison-table schema with `H, M, Pi, P^pi, R^pi`,
-   observable algebra, resource bound, and strongest non-equivalence.
-3. Select one sequence-bearing Zipf dataset with a meaningful intervention or
-   perturbation model.
-4. Build the Zipf rival-model and shuffle-control analysis before interpreting
-   any exponent.
-5. Extract the 2025–2026 black-hole disagreement as paired claims with exact
-   assumptions and observable algebras.
-6. Keep all conclusions graded as field result, synthesis inference, or ICP
+1. Convert the five-level information hierarchy into the compact Paper 1
+   frontier box without importing the full specialist dispute.
+2. Use `black_hole_frontier_disagreement.csv` to keep proper-radiation,
+   complete-asymptotic, observer-dressed, and bath algebras distinct.
+3. Treat the bath-induced Goldstone/Stueckelberg dressing as a candidate carrier
+   only within its massive-gravity/open-system scope.
+4. Require criteria `F014`–`F020` before any new black-hole claim enters the
+   synthesis.
+5. Keep all conclusions graded as field result, synthesis inference, or ICP
    hypothesis.

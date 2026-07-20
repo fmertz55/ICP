@@ -54,3 +54,35 @@ Assign the source ID first in `../../library/source_index.csv`.
 | S036 | Visser 2013 | Maximum-entropy inference boundary |
 | S037 | Mora & Bialek 2011 | Criticality interpretation |
 | S038 | Tkačik et al. 2015 | Neural criticality empirical model |
+
+## Pilot Batch 03 notes — black-hole information
+
+| ID | Short source | Role |
+|---|---|---|
+| S039 | Hawking 1976 | Original semiclassical information-loss argument |
+| S040 | Page 1993 | Conditional unitary random-state entropy benchmark |
+| S041 | Hayden & Preskill 2007 | Idealized message-recovery theorem |
+| S042 | Mathur 2009 | Small-corrections constraint |
+| S043 | Almheiri et al. 2013 | AMPS consistency trilemma |
+| S044 | Harlow & Hayden 2013 | Computational decoding boundary |
+| S045 | Papadodimas & Raju 2014 | State-dependent interior reconstruction |
+| S046 | Engelhardt & Wall 2015 | Quantum extremal surfaces |
+| S047 | Almheiri, Dong & Harlow 2015 | Holographic operator-algebra QEC |
+| S048 | Jafferis et al. 2016 | Algebra-relative distinguishability and reconstruction |
+| S049 | Hawking, Perry & Strominger 2016 | Soft-hair candidate record |
+| S050 | Mirbabayi & Porrati 2016 | Soft-hair insufficiency rival |
+| S051 | Penington 2020 | Controlled Page transition and radiation wedge |
+| S052 | Almheiri et al. 2019 | JT-gravity evaporation with heat sink |
+| S053 | Penington et al. 2022 | Replica sums, ensemble caveat, and Petz recovery |
+| S054 | Almheiri et al. 2020 | Replica-wormhole derivation of island rule |
+| S055 | Geng et al. 2022 | Long-range-gravity/Gauss-law objection |
+| S056 | Raju 2022 | Failure-of-split-property argument |
+| S057 | Colafranceschi et al. 2024 | Entropy of gravitational observable algebras |
+| S058 | Geng 2025 | Karch–Randall replica/RT correspondence |
+| S059 | Matsuo 2025 | QES location across a semiclassical model class |
+| S060 | Antonini et al. 2025 | Massless-gravity islands with proper radiation algebras |
+| S061 | Geng, Jiang & Xu 2025 | Observer-dressed island algebras |
+| S062 | Geng 2026 | Bath-induced dressing/encoding mechanism |
+| S063 | Geng et al. 2026 | Complete-asymptotic-algebra counterposition |
+| S064 | Kumar 2026 | Defect-entropy massless-island endpoint model |
+| S065 | Dar, Kajuri & Panigrahi 2026 | CGHS asymptotic-algebra recovery test |

@@ -3,8 +3,9 @@
 This is an evolving critical synthesis, not a repository of favorable
 quotations. The detailed first result is in
 `pilot_batch_01_formal_core.md`; the first mechanism-discrimination result is in
-`pilot_batch_02_zipf_mechanism_discrimination.md`. Every statement below is
-traceable through `../analysis/claim_evidence_matrix.csv`.
+`pilot_batch_02_zipf_mechanism_discrimination.md`; the quantum-gravitational
+frontier stress test is in `pilot_batch_03_black_hole_information.md`. Every
+statement below is traceable through `../analysis/claim_evidence_matrix.csv`.
 
 ## 1. Operational vocabulary
 
@@ -24,6 +25,9 @@ traceable through `../analysis/claim_evidence_matrix.csv`.
 - **Counterfactual** is reserved for alternatives linked by a structural causal
   or potential-outcome model; multiple forecasts are not automatically
   counterfactuals.
+- **Operational information hierarchy** separates global preservation,
+  algebra-relative distinguishability, logical reconstruction, allowed message
+  recovery, and efficient recovery under declared resources.
 
 ## 2. What the pilot fields establish
 
@@ -58,6 +62,16 @@ constraints, or history-dependent support reduction. Zipf therefore becomes
 ICP-relevant only through conditional future-law and intervention predictions
 beyond the marginal. Rank-count, count-distribution, and type-token laws must
 remain distinct.
+
+The black-hole literature establishes a second anti-inference result: the same
+Page-shaped entropy curve does not identify the same carrier, channel,
+observable algebra, reconstruction map, or recovery cost. Controlled QES,
+island, replica-wormhole, and holographic-QEC results are strong within their
+declared models. They do not constitute a microscopic evaporation channel or an
+observation of information recovery from an astrophysical black hole. The
+2025–2026 massless-gravity dispute is best represented as an algebra- and
+definition-sensitive disagreement, not as a settled verdict for or against
+islands.
 
 ## 3. Common-schema comparison
 
@@ -94,13 +108,23 @@ fundamental principle.
 - Non-Markovian reduced dynamics ≠ irreducible history.
 - Redundant environmental record ≠ partition-invariant objectivity.
 - Constraint in Maximum Caliber ≠ embodied physical constraint.
+- Global information preservation ≠ distinguishability by a declared algebra.
+- Algebra-relative distinguishability ≠ logical-algebra reconstruction.
+- Logical reconstruction ≠ message recovery by an allowed decoder.
+- Allowed recovery ≠ efficient recovery within time, energy, precision, and
+  copy budgets.
+- Page curve ≠ microscopic channel or carrier.
+- Euclidean replica saddle ≠ Lorentzian information trajectory.
 
 ## 6. Competing explanations
 
 The complete-state ordinary-dynamics null (`R001`) and the state-augmentation
-null (`R002`) are currently strongest. Observer/task dependence (`R003`) and the
-epistemic-summary account (`R005`) remain live. Pilot evidence strengthens these
-rivals rather than dismissing them, which sets the burden of proof for ICP.
+null (`R002`) are currently strongest across the program. Observer/task
+dependence (`R003`) and the epistemic-summary account (`R005`) remain live. In
+black-hole physics, the complete-asymptotic-algebra rival (`R016`), controlled-
+model scope rival (`R017`), and resource-bounded recovery rival (`R018`) are
+mandatory. Pilot evidence strengthens these rivals rather than dismissing them,
+which sets the burden of proof for ICP.
 
 ## 7. What ICP may add
 
@@ -116,7 +140,7 @@ complete-state process model.
 
 ## 8. Formal and empirical requirements
 
-Use criteria `F001`–`F013`. The general priority design is:
+Use criteria `F001`–`F020`. The general priority design is:
 
 1. prepare the same declared macrostate through distinct histories;
 2. randomize matched interventions;
@@ -141,6 +165,10 @@ Use criteria `F001`–`F013`. The general priority design is:
 - **Zipf result:** a slope is rejected as ICP evidence; matched-marginal future-
   law discrimination is retained as a falsifiable laboratory, with a PSA
   sequence experiment preregistered but not yet executed.
+- **Black-hole result:** a Page curve is rejected as carrier evidence; the
+  five-level preservation-to-efficient-recovery hierarchy and explicit
+  algebra/resource indices are retained as durable constraints on ICP.
 - **Unresolved:** a new invariant or theorem, biological maintenance and repair,
-  relational observables, a physical carrier test for any sequence result, and
-  the black-hole accessibility/recoverability frontier.
+  relational observables, a physical carrier test for any sequence result, a
+  nonperturbative single-theory evaporation channel for realistic gravity, and
+  the operational status of complete versus proper radiation algebras.

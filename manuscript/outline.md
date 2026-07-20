@@ -138,7 +138,11 @@ recoverability, cross-referenced mainly to pillars 2, 3, and 6.
 - replica wormholes and their controlled-model scope;
 - entanglement-wedge reconstruction and quantum error correction;
 - scrambling, in-principle recovery, and decoding complexity;
-- global information versus observer/algebra-relative access.
+- the five-level hierarchy: global preservation, algebra-relative
+  distinguishability, logical reconstruction, message recovery, and efficient
+  recovery;
+- the paired 2025–2026 disagreement over proper radiation versus complete
+  asymptotic algebras in massless gravity.
 
 Do not present controlled AdS/CFT, JT-gravity, bath, or code-model results as an
 empirical resolution for evaporating astrophysical black holes. Generalized
@@ -179,5 +183,6 @@ a literal physical branching event.
 - Rival models and discriminating tests.
 - Box: Zipfian marginals do not identify future-generating mechanisms; matched-
   marginal sequence interventions reveal the actual ICP question.
-- Box: Black-hole information distinguishes existence, reconstruction,
-  recoverability, and computational accessibility.
+- Box: A Page curve is not a carrier—black-hole information distinguishes
+  global preservation, algebra-relative access, logical reconstruction,
+  message recovery, and efficient recovery.

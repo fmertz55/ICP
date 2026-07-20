@@ -33,8 +33,17 @@ The ICP-relevant object is the intervention-sensitive law of the next event,
 novelty, or reachable successor set after histories have been matched on their
 present marginal counts.
 
+Pilot Batch 03 is complete for black-hole information as an adversarial frontier
+test. It adds 27 sources (`S039`–`S065`: 23 peer-reviewed papers and four
+current preprints), 43 source-claim relations, eight explicit rival accounts,
+and seven failure criteria. Its principal finding is that global preservation,
+algebra-relative distinguishability, logical reconstruction, message recovery,
+and efficient recovery are five different claims. A Page curve establishes none
+of the missing carrier, channel, or resource claims by itself.
+
 Start with `synthesis/pilot_batch_01_formal_core.md`, then read
-`synthesis/pilot_batch_02_zipf_mechanism_discrimination.md`. Project-generated
+`synthesis/pilot_batch_02_zipf_mechanism_discrimination.md` and
+`synthesis/pilot_batch_03_black_hole_information.md`. Project-generated
 PSA evidence is quarantined from the literature synthesis under
 `project_evidence/`; its first audit discovered an adaptive-routing censoring
 boundary that invalidates a naive fit to the stored mixed-resolution voxel
@@ -143,7 +152,10 @@ The scoped expansion for statistics, Zipf, and black-hole information is in
 `synthesis/research_agenda_statistics_zipf_black_holes.md`. The completed Zipf
 batch includes an adversarial mechanism matrix in
 `analysis/zipf_mechanism_matrix.csv` and a preregistration-ready PSA design in
-`project_evidence/psa_zipf_preregistration.md`.
+`project_evidence/psa_zipf_preregistration.md`. The completed black-hole batch
+includes a mechanism/status matrix in `analysis/black_hole_information_matrix.csv`
+and a paired map of the live algebra dispute in
+`analysis/black_hole_frontier_disagreement.csv`.
 
 ## Novelty gate
 
