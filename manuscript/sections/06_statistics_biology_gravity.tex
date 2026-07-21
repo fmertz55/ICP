@@ -204,7 +204,10 @@ divergence. In the thermodynamic development, an eigenmode contributes
  \label{eq:gfe-thermodynamics}
 \end{equation}
 Individual $c_k$ can be signed; a nonnegative mode-by-mode identification with
-Eq.~\eqref{eq:icp-constraint-divergence} is therefore generally invalid.
+Eq.~\eqref{eq:icp-constraint-divergence} is therefore generally invalid. The
+signed support deformation in Eq.~\eqref{eq:signed-support-deformation} removes
+that algebraic sign obstruction, but does not by itself supply a physical mode
+map.
 
 \paragraph{Synthesis inference: the bridge formula.}
 Let $Q_x^{\mathrm{prior}}$ and $Q_x^{\mathrm{post}}$ be as-yet-undefined positive
@@ -228,17 +231,19 @@ $\mu$ is counting measure. Under these algebraic conditions,
  \begin{aligned}
  -\ln\det_F\boldsymbol\Theta_x
  &=\ln\frac{\mu(\Rset_x^{\mathrm{prior}})}
-             {\mu(\Rset_x^{\mathrm{post}})}\\
- &=\ln\frac{|\Rset_x^{\mathrm{prior}}|}
-             {|\Rset_x^{\mathrm{post}}|}
- =\Delta I_x
- =D_{\mathrm{KL}}(U_x^{\mathrm{post}}\Vert U_x^{\mathrm{prior}}).
+             {\mu(\Rset_x^{\mathrm{post}})}
+ =:\chi_x.
  \end{aligned}
  \label{eq:gfe-iota-scalar-bridge}
 \end{equation}
+For finite uniform nested supports, Eq.~\eqref{eq:signed-kl-duality} gives the
+orientation explicitly: $\chi_x$ is the forward KL divergence and equals
+IOTA's $\Delta I_x$ under pruning, whereas under expansion it is minus the
+reverse KL divergence. For non-nested supports it is only a signed determinant
+or volume contrast and must be accompanied by the enabled/lost/retained ledger.
 For a non-counting base measure, the same determinant algebra would instead
-define $\Delta I_x^{(\mu)}$ for normalized restrictions of that measure; it
-cannot silently replace the cardinality-defined $\Delta I_x$. The question mark
+define $\chi_x^{(\mu)}$ for normalized restrictions of that measure; it cannot
+silently replace the cardinality-defined $\Delta I_x$. The question mark
 in Eq.~\eqref{eq:gfe-iota-operator-bridge} carries the missing physics:
 the operators, common domain, metric meaning, covariance, functional variation,
 and continuum regularization remain to be derived from IOTA and GfE.
@@ -260,10 +265,26 @@ corresponding degeneracy, with $z_0=z_1=1$ and $z_2=z_3=z_4=3$. In the
 reported weak-curvature Friedmann expansion, $u_k=\omega_kH^2$ with
 $\omega_k=\omega'_k\ell_{\mathrm P}^2$, and
 $\bar\omega_{[1]}:=\sum_{k=0}^{4}z_k\omega_k$.
-This cannot be imposed generally because $c_k$ can be signed while
-Eq.~\eqref{eq:icp-constraint-divergence} is nonnegative. An aggregate
-$\chi_x\widehat{=}\sum_kz_kc_k$ also determines neither a single temperature nor
+The signed $\chi_{x,k}$ makes positive sectors conditionally interpretable as
+pruning and negative sectors as expansion. This is not a general KL
+identification: non-nested mode supports can mix both, and an aggregate
+$\chi_x\widehat{=}\sum_kz_kc_k$ determines neither a single temperature nor
 $\delta\epsilon/\delta v=\sum_kz_k(e^{c_k}-1-c_k)$ without the full mode vector.
+
+The adjacent-possible bridge also suggests a sharper multiscale signature. A
+retained carrier could restrict immediate microstate options while enabling
+more long-horizon role types,
+\begin{equation}
+ \chi_{\mathrm{micro},1}>0,
+ \qquad
+ \chi_{\mathrm{role},h}<0\quad(h\ge h_\star),
+ \label{eq:constraint-enablement-crossover}
+\end{equation}
+under the same randomized carrier intervention. This local-pruning to
+long-range-enablement crossover would become a distinct IOTA/ICP result only if
+$h_\star$ were predicted from independently measured gate lifetimes or adaptive
+cut depths and confirmed on held-out laws and geometries. Adjacent-possible and
+scaffolding theories already anticipate the qualitative phenomenon.
 
 For weak-curvature, late-time Friedmann backgrounds, modes with
 $\omega_k\neq0$ obey $c_k\simeq\omega_kH^2$ and
@@ -274,6 +295,22 @@ and $w=1$ cases, so an aggregate $H^2$ scaling requires
 $\bar\omega_{[1]}\neq0$. All of these asymptotics insert standard Friedmann
 behavior into the GfE functionals; they are not yet a novel ICP prediction or a
 discriminator from GR/\(\Lambda\)CDM.
+
+There is a further conditional scaling crosswalk, but not yet a cosmological
+law. If a declared role repertoire grows as $M(v)\propto v^\beta$ and the GfE
+mode variable is identified with a constraint potential
+$s_C(v):=-\ln M(v)$, then
+\begin{equation}
+ c(v)=\frac{ds_C}{dv}\simeq-\frac{\beta}{v},
+ \qquad
+ e^{c(v)}-1-c(v)\simeq\frac{\beta^2}{2v^2}.
+ \label{eq:adjacent-gfe-scaling}
+\end{equation}
+The sign convention matches support expansion in
+Eq.~\eqref{eq:signed-support-deformation}. Triggering models already generate
+Heaps exponents $\beta$, and TAP models already generate sharp transitions;
+Eq.~\eqref{eq:adjacent-gfe-scaling} becomes new physics only after $v$, the mode
+dictionary, dimensions, and the carrier-derived rate are fixed independently.
 
 A first bridge-specific test is instead to construct $Q_x$ from frozen IOTA
 microdynamics and $\boldsymbol\Theta_x$ independently from the geometric sector,

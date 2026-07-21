@@ -1,6 +1,7 @@
 # IOTA/ICP viability verdict
 
-Date frozen for manuscript drafting: 2026-07-20
+Bounded-search date frozen for manuscript drafting: 2026-07-20. Targeted GfE
+and adjacent-possible addenda verified: 2026-07-21.
 
 ## Executive verdict
 
@@ -20,8 +21,9 @@ This is a positive but graded verdict. The positive case rests on four points:
 
 The ceiling on the verdict is equally important. Standard control theory,
 viability, predictive-state methods, process tensors, semantic-information
-interventions, and ordinary complete-state dynamics already explain much of the
-generic language of constrained futures. The current Dirac construction
+interventions, adjacent-possible models, and ordinary complete-state dynamics
+already explain much of the generic language of constrained and expanding
+futures. The current Dirac construction
 supplies its quantum substrate, clock, Born readout, and mass parameters.
 Neither IOTA nor the independent literature yet derives quantum theory, mass,
 energy, spacetime, or the laws of physics from an informational lattice.
@@ -31,8 +33,8 @@ energy, spacetime, or the laws of physics from an informational lattice.
 | Dimension | Rating | Basis | What would raise the rating? |
 |---|---|---|---|
 | Conceptual coherence | Strong | IOTA distinguishes retained condition, informational change, admissible intervention, reachable future, and carrier succession. | A representation-independent theorem joining these objects. |
-| Operational precision | Moderate-strong | Project interventions and the indexed future-law schema are testable; hard, soft, and operational constraints can be separated. | A complete multi-horizon metric or equivalence relation for support-preserving reshaping. |
-| Distinctness from prior art | Partial | Formation plus role persistence across original-carrier replacement is narrower than generic reachability or prediction. | A result not reducible to complete-state control, causal-state, process-tensor, semantic-information, or viability formalisms. |
+| Operational precision | Moderate-strong | Project interventions and the indexed future-law schema are testable; the signed flux ledger separates pruning, enabling, and identity turnover. | A representation-stable multi-horizon invariant with a physically selected measure. |
+| Distinctness from prior art | Partial | Formation plus role persistence across original-carrier replacement is narrower than generic reachability, prediction, or adjacent-possible expansion. | A result not reducible to complete-state control, causal-state, process-tensor, semantic-information, viability, or native novelty formalisms. |
 | Project constructive evidence | Moderate, bounded | Frozen IOTA interventions demonstrate relation transport and succession; two registered local quantum updates recover a bounded Dirac role with disclosed limitations. | Independent replication, alternative laws/topologies, and a base-IOTA-to-quantum bridge. |
 | Independent empirical grounding | Indirect but substantial | Feedback thermodynamics, environmental records, biological memory, evolutionary path restrictions, and emergent quasiparticles instantiate component mechanisms. | A physical experiment designed prospectively around the full ICP carrier criterion. |
 | Cross-domain synthesis value | Strong | The same indexed future-law language exposes real similarities and decisive non-equivalences across fields. | A derivational bridge rather than structural comparison alone. |
@@ -73,6 +75,8 @@ External work establishes existence precedents for the parts of the ladder:
 - physical records can be created, redundantly distributed, manipulated, and
   used in feedback;
 - histories can be compressed into predictive or multi-time operational states;
+- novelty can be history-correlated and one discovery can alter later
+  accessibility in urn, network, scaffolding, and combinatorial models;
 - living systems preserve functional responses through physical memory and
   constrain accessible evolutionary paths;
 - collective quantum organization can produce quasiparticles, fractional
@@ -115,6 +119,13 @@ correlations or information-bearing structure and measure effects on viability
 or future trajectory distributions. These are not peripheral citations; they
 set ICP's novelty threshold.
 
+The adjacent possible is an even closer neighbor for support creation.
+Kauffman's molecular definition is a novelty-filtered one-step reachable set,
+and later triggering, network, higher-order, scaffolding, and TAP models already
+formalize expanding accessibility and its scaling. This is a major structural
+correlation and a major prior-art constraint, not an additional independent
+pillar of evidence.
+
 The current defensible differentiator is therefore not "information changes
 future possibilities." It is the proposed study of **interaction-formed,
 physically embodied constraint roles that persist through replacement of their
@@ -127,13 +138,16 @@ Proceed, but condition every stronger claim on the emergence ladder:
 
 1. reproduce carrier-succession results across laws, schedulers, topologies, and
    state representations;
-2. isolate a minimal coherence invariant;
-3. derive quantum state structure and probability rather than supply them;
-4. construct a quasiparticle with composition, dispersion, symmetry,
+2. preregister a multi-horizon adjacent-frontier assay with frozen type maps,
+   enabled/lost/retained identities, and a predicted pruning-to-enabling
+   crossover;
+3. isolate a minimal coherence invariant;
+4. derive quantum state structure and probability rather than supply them;
+5. construct a quasiparticle with composition, dispersion, symmetry,
    conservation, scattering, and robustness;
-5. recover interacting QFT roles and confront lattice no-go results;
-6. derive mass- and energy-like invariants; and
-7. make a physical prediction that distinguishes ICP from its complete native
+6. recover interacting QFT roles and confront lattice no-go results;
+7. derive mass- and energy-like invariants; and
+8. make a physical prediction that distinguishes ICP from its complete native
    rivals.
 
 The program should stop or be radically reformulated if repeated adequate

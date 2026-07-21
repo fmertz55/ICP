@@ -1,6 +1,6 @@
 # ICP structured critical-synthesis protocol
 
-- Protocol version: 0.7
+- Protocol version: 0.8
 - Date: 2026-07-21
 - Status: pilot protocol
 - Review type: structured critical-scoping review with integrative synthesis
@@ -44,6 +44,9 @@ or already exhausted by ordinary dynamics and state specification.
 7. What does ICP predict, prohibit, compress, or explain beyond a fully specified
    standard dynamical account?
 8. What evidence would narrow, falsify, or make the proposal redundant?
+9. Does a claimed novelty represent a newly visited member of a fixed space,
+   a change in accessibility, a new registered type or relation, or a change in
+   the generative state space itself?
 
 ## 3. Claim levels
 
@@ -120,6 +123,17 @@ separate support restriction, probability reweighting, accessibility orders,
 entropy rate, predictive memory, entropy production, rare-event conditioning,
 one-shot tasks, generalized entropies, and algebraic entropy.
 
+The adjacent possible is treated as a question-triggered prior-art and
+support-creation audit, not as a new confirming pillar. Searches must separate
+Kauffman's one-step molecular definition; enablement and unprestatability
+claims; urn triggering; network exploration; combinatorial TAP models;
+higher-order novelty; scaffolding; and resource-constrained empirical tests.
+Heaps, Zipf, Taylor, clustering, or hockey-stick scaling alone cannot identify
+an adjacent-possible mechanism or ICP. Each material claim must declare the
+actualized repertoire, novelty/type classifier, meaning of one step, generative
+rule, policy, horizon, resources, and whether possibilities are created,
+enabled, discovered, or merely relabeled.
+
 ## 6. Screening and source registration
 
 Screen title/abstract first, then full text where warranted. Record all candidate
@@ -150,6 +164,9 @@ Extract:
 - system, model, scale, and system-environment partition;
 - admissible intervention or policy family and observable algebra;
 - author-defined information, constraint, state/history, and future object;
+- for adjacent-possible claims: actual set, adjacent frontier, type/role map,
+  step or horizon, novelty-versus-innovation status, generative rule, resource
+  constraint, and enabled/lost/retained identities;
 - for entropy claims: functional, state/path space, measure or reference,
   partition/algebra, allowed operations, task, horizon, and tolerance;
 - method or formalism and the exact result;
@@ -204,6 +221,10 @@ physical content. Other mandatory rivals include state augmentation or Markovian
 embedding, coarse-graining or observer dependence, ordinary stability and
 selection dynamics, scale-specific biological organization, and failure to
 identify interventional or counterfactual laws from observational statistics.
+For novelty claims, mandatory rivals also include fixed-space first discovery,
+classifier/coarse-graining artifacts, reinforcement or evolving-network models
+without ICP carrier succession, duplicate rediscovery, and resource-limited
+search.
 
 Rivals are tracked in `analysis/competing_explanations.csv`. ICP should be
 regarded as an independently established principle only after a formal version

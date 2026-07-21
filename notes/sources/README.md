@@ -121,3 +121,19 @@ Assign the source ID first in `../../library/source_index.csv`.
 | S093 | Lie et al. 2026 | Informational-equilibrium channel characterization |
 | S094 | Klinger, Kudler-Flam & Satishchandran 2026 | Horizon charge algebra; preprint |
 | S095 | Han 2026 | Fixed-area LQG algebra and area-law boundary |
+
+## Pilot Batch 09 notes — adjacent possible and expanding discovery spaces
+
+| ID | Short source | Role |
+|---|---|---|
+| S176 | Kauffman 2000 | Original one-reaction-step adjacent-possible formulation |
+| S177 | Longo, Montévil & Kauffman 2012 | Enablement and unprestatable-phase-space thesis |
+| S178 | Tria et al. 2014 | Triggering urn, correlated novelty, and Heaps/Zipf tests |
+| S179 | Iacopini, Milojević & Latora 2018 | Reinforced-network discovery mechanism |
+| S180 | Steel, Hordijk & Kauffman 2020 | Combinatorial birth–death and hockey-stick growth |
+| S181 | Ubaldi et al. 2021 | Adjacent-possible model of social-network growth |
+| S182 | Villani & Serra 2023 | TAP rediscovery control in an explicit type world |
+| S183 | Griesemer 2024 | Dynamic scaffolding of accessibility |
+| S184 | Cortês et al. 2025 | Analytic TAP plateau and blow-up behavior |
+| S185 | Di Bona et al. 2025 | Higher-order novelty and evolving-network model |
+| S186 | Taalbi 2026 | Resource-constrained long-run innovation test |

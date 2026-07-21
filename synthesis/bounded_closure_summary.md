@@ -1,6 +1,7 @@
 # Bounded literature closure summary
 
-Evidence cutoff: 2026-07-20
+Bounded-search cutoff: 2026-07-20. Targeted GfE and adjacent-possible addenda
+verified: 2026-07-21.
 
 Review type: adversarial critical-scoping synthesis, not a systematic review or
 meta-analysis.
@@ -35,11 +36,18 @@ question.
    epistatic accessibility, autocatalysis, and synthetic compartments.
 8. Emergence closure: string-net/topological-order constructions,
    quasiparticle experiments, and quantum-cellular-automaton field limits.
+9. Question-triggered adjacent-possible addendum: foundational one-step
+   definition, enablement, triggering urns, evolving networks, TAP growth,
+   higher-order novelty, scaffolding, and resource-constrained empirical tests.
 
 ## What the closure establishes for drafting
 
 - Generic claims that present information changes future possibilities are
   already covered by mature native formalisms.
+- The adjacent possible is the closest native language for the support-creation
+  side of ICP: it maps formally to a novelty-filtered one-step reachable set,
+  so the large correlation increases prior-art pressure rather than acting as
+  independent confirmation.
 - Information can persist beyond an original bearer in other physical
   carriers; no reviewed result requires carrier-free information.
 - History-built physical organization can change later intervention responses
@@ -67,8 +75,9 @@ synthesis:
 - a device-independent causal-order protocol review;
 - quantitative metrics for carrier equivalence and change in reachable-future
   families;
-- comprehensive artificial-life and open-ended-evolution surveys once a
-  specific IOTA biological bridge is proposed;
+- comprehensive artificial-life and open-ended-evolution surveys beyond the
+  targeted adjacent-possible audit once IOTA proposes a physical test of
+  genuinely expanding state-space dimensions;
 - realistic four-dimensional black-hole evaporation mechanisms once ICP makes
   a carrier-level gravitational prediction; and
 - higher-dimensional interacting lattice-QFT/no-go closure once the project

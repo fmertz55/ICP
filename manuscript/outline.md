@@ -101,6 +101,12 @@ A constraint is a **comparison**, not a property of one unqualified state:
 - operational constraint: changed reachability or convertibility preorder under
   the same allowed operations and resources.
 
+For a frozen role map and realized repertoire, the adjacent possible is the
+novelty-filtered one-step reachable sector. Compare interventions with an
+enabled/lost/retained ledger and signed support deformation: positive for
+nested pruning, negative for nested expansion. This is close prior art, not a
+new confirming pillar.
+
 A candidate persistent informational carrier must pass four gates:
 
 1. **Formation:** controlled histories form distinguishable `M_t` candidates.
@@ -176,20 +182,30 @@ A candidate persistent informational carrier must pass four gates:
 - ICP must add history-formed embodiment or useful compression beyond the
   complete controlled state.
 
-#### 5.2 Empowerment, causal entropy, and semantic information
+#### 5.2 Adjacent possible and expanding discovery spaces
+
+- Kauffman's one-reaction-step molecular frontier is almost exactly a
+  type-projected one-step reachable set.
+- Triggering urns, evolving networks, scaffolding, higher-order novelty, and
+  TAP already formalize history-dependent expansion and scaling.
+- IOTA can add content only through causal carrier formation, complete
+  succession, rescue, representation robustness, or a held-out cross-scale
+  prediction.
+
+#### 5.3 Empowerment, causal entropy, and semantic information
 
 - Option capacity and future-path entropy measure future diversity.
 - Counterfactual semantic information tests viability-relevant correlations.
 - Distinguish scalar option value from a transported physical carrier.
 
-#### 5.3 Constructor theory and computational mechanics
+#### 5.4 Constructor theory and computational mechanics
 
 - Possible/impossible tasks and predictive causal states are close formal
   relatives.
 - Predictive equivalence does not establish carrier causation; task possibility
   does not by itself encode realized historical succession.
 
-#### 5.4 Feedback and information thermodynamics
+#### 5.5 Feedback and information thermodynamics
 
 - Measurement records used in feedback connect information to work and
   dissipation.

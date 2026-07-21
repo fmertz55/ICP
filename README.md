@@ -34,9 +34,10 @@ or reject ICP.
 ## Current status and verdict
 
 The bounded literature closure and manuscript architecture are complete at the
-20 July 2026 evidence cutoff. A targeted 21 July amendment adds two primary
-Gravity from Entropy sources and a formally delimited IOTA--GfE bridge without
-reopening the other search strata. Eight synthesis batches cover the formal core,
+20 July 2026 evidence cutoff. Targeted 21 July amendments add two primary
+Gravity from Entropy sources, a formally delimited IOTA--GfE bridge, and a
+bounded adjacent-possible prior-art audit without reopening the other search
+strata. Nine synthesis batches cover the formal core,
 Zipf, black-hole information, entropy, control/causal information/information
 thermodynamics, quantum records/reference frames/causal order, biological
 organization, and emergent quasiparticles.
@@ -64,7 +65,7 @@ Read the current products in this order:
 2. `manuscript/outline.md`
 3. `output/pdf/iota_icp_scientific_synthesis.pdf`
 4. `output/pdf/how_the_past_changes_what_can_happen_next.pdf`
-5. the eight bounded reports in `synthesis/pilot_batch_*.md`
+5. the nine bounded reports in `synthesis/pilot_batch_*.md`
 
 ### Completed evidence batches
 
@@ -127,11 +128,20 @@ constructions demonstrate that local quantum organization can support
 particle-like collective roles. They do not yet bridge a non-quantum base IOTA
 substrate to quantum state structure.
 
+Pilot Batch 09 audits the adjacent possible as the closest support-creation
+prior art. Kauffman's one-reaction-step frontier maps formally to a
+novelty-filtered ICP reachable set; triggering urns, evolving networks,
+scaffolding, higher-order novelty, and TAP already cover many generic expansion
+claims. The synthesis adds a signed pruning/enabling ledger and a prospective
+carrier-succession test. The large correlation is structural and narrows
+novelty; it is not independent confirmation of ICP or evidence for open-ended
+cosmological state-space creation.
+
 For the source-by-source trail, start with
 `synthesis/pilot_batch_01_formal_core.md`, then read
 `synthesis/pilot_batch_02_zipf_mechanism_discrimination.md`,
 `synthesis/pilot_batch_03_black_hole_information.md`, and
-`synthesis/pilot_batch_04_entropy_constraint.md`, followed by batches 05--08.
+`synthesis/pilot_batch_04_entropy_constraint.md`, followed by batches 05--09.
 Project-generated
 PSA evidence is quarantined from the literature synthesis under
 `project_evidence/`; its first audit discovered an adaptive-routing censoring
