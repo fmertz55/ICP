@@ -6,16 +6,16 @@ and is not part of the journal submission package.
 
 - `icp_biosystems_submission.pdf` — 47-page, line-numbered, figure-free
   Hypothesis Paper prepared for BioSystems. SHA-256:
-  `99759f0a8455309bc3b401235d00439fa08faa207d4865db9c1909f4db342e34`
+  `0ac2b3d4800f1cfa2f40030f67e37bffbec96a50b27c014d09205c7d73341f40`
 - `../submission/icp_biosystems_sources.zip` — deterministic editable-source
   submission archive. SHA-256:
-  `4e4f5582765f792c2e38a374f30896f5cd339b0d4ac473f28b62be77202ca822`
+  `330ae05ece31c953e4f5a35cd9734e671d81ada5b92eb7f61368127b5f77301e`
 - `iota_icp_scientific_synthesis.pdf` — 31-page technical synthesis, viability
   audit, and research architecture. SHA-256:
-  `1287743554a61099bdb5334fe3cfb25cc9b12811d0aa5000818d0b7c9964b2d1`
-- `how_the_past_changes_what_can_happen_next.pdf` — 12-page plain-language
+  `c2b1a5d5d4a78d8ee541e0afda24bc4da2ccfadbd645ef22484b1a3f25f7156b`
+- `how_the_past_changes_what_can_happen_next.pdf` — 13-page plain-language
   companion, including references. SHA-256:
-  `d4e7aaeceefabce0ad4a3bae17d4b5ea76a99f914df615dcec1dff5174b1d2f7`
+  `ea57c5b4159dc5999501f174a7d8732d49719318491f1767a9a5ec1f32d7ab9e`
 
 The submission and technical PDFs compile without missing citations, undefined
 references, overfull boxes, or BibTeX warnings. All 47 submission pages were

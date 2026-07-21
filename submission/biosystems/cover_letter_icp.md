@@ -26,13 +26,14 @@ manuscript therefore makes no priority claim for geometric expansion into the
 adjacent possible.
 
 A related manuscript, “Constraint Transport and History-Dependent Successor
-Accessibility in a Finite Local Artificial-Life System,” reports the primary computational
-experiments discussed as project evidence here. It is scientifically distinct:
-the related article reports reproducible interventions and results, whereas
-this manuscript formulates and audits the general hypothesis. The relationship
-and all overlapping material are disclosed. Permanent identifiers or the
-related BioSystems manuscript number will be supplied when available, in the
-arrangement approved by the editor.
+Accessibility in IOTA: An Information-First Finite Local Physics Model,”
+presents an artificial-life application of IOTA and reports the primary
+computational experiments discussed as project evidence here. It is
+scientifically distinct: the related article reports reproducible interventions
+and results, whereas this manuscript formulates and audits the general
+hypothesis. The relationship and all overlapping material are disclosed.
+Permanent identifiers or the related BioSystems manuscript number will be
+supplied when available, in the arrangement approved by the editor.
 
 A separate technical manuscript on a bounded Dirac-QCA construction is cited
 only as a qualified test of the project's prospective audit method. It is not
