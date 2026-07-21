@@ -137,3 +137,10 @@ Assign the source ID first in `../../library/source_index.csv`.
 | S184 | Cortês et al. 2025 | Analytic TAP plateau and blow-up behavior |
 | S185 | Di Bona et al. 2025 | Higher-order novelty and evolving-network model |
 | S186 | Taalbi 2026 | Resource-constrained long-run innovation test |
+| S187 | Kauffman 2014 | Enabling constraints and unprestatable adjacent possibilities |
+| S188 | Farnsworth 2022 | Embodied information as historically accumulated constraint |
+| S189 | Patra & Kauffman 2025 | Fixed-law versus indefinite possibility-space thesis |
+| S190 | Faggian 2025 | Closure intervention and open-ended-complexity dynamics |
+| S191 | Chen 2026 | Adaptive topology as structural biological information |
+| S192 | Chen 2026 | Minimal local cellular-automaton organization baseline |
+| S193 | Fari\~na & Vallejo 2026 | Fisher-volume biological cosmological constant and adjacent-possible expansion |

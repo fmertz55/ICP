@@ -1,6 +1,6 @@
 # ICP structured critical-synthesis protocol
 
-- Protocol version: 0.8
+- Protocol version: 1.0
 - Date: 2026-07-21
 - Status: pilot protocol
 - Review type: structured critical-scoping review with integrative synthesis
@@ -224,7 +224,12 @@ identify interventional or counterfactual laws from observational statistics.
 For novelty claims, mandatory rivals also include fixed-space first discovery,
 classifier/coarse-graining artifacts, reinforcement or evolving-network models
 without ICP carrier succession, duplicate rediscovery, and resource-limited
-search.
+search. For finite local artificial-system claims, at least one recent minimal
+organization model and one adaptive-topology cellular-automaton model must be
+treated as direct computational baselines rather than as distant analogies. Any
+geometric or phase-transition claim about adjacent-possible expansion must also
+compare against the Fisher-information-volume $\Lambda_B$ construction and
+state whether the proposed observable retains the contraction/expansion sign.
 
 Rivals are tracked in `analysis/competing_explanations.csv`. ICP should be
 regarded as an independently established principle only after a formal version

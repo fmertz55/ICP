@@ -1,0 +1,5 @@
+- ICP defines information through causal constraints on indexed future laws.
+- The adjacent possible is a novelty projection of an ICP reachable set.
+- Signed support flux unifies pruning and enabling for nested supports.
+- Carrier replacement separates persistence from original-material identity.
+- A cross-scale pruning-to-enabling crossover supplies a falsifiable test.

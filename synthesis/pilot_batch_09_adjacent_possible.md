@@ -614,3 +614,41 @@ resource-constrained long-run empirical case are represented. Further broad
 searching is unlikely to reverse the verdict. The productive next step is a
 prospective frontier assay and, separately, a registered IOTA companion
 amendment if the adjacent-possible terminology is to be adopted in that paper.
+
+## Submission-targeted BioSystems addendum
+
+A narrow target-journal screen was completed before submission packaging. It
+does not reopen the broad search or add affirmative evidence for ICP. It adds
+seven especially close BioSystems sources:
+
+- Kauffman's later formulation makes enabling constraints, new biological
+  functions, and unprestatable adjacent possibilities explicit
+  (S187) \citep{Kauffman2014Prolegomenon}.
+- Farnsworth identifies historically accumulated embodied patterns with
+  constraints on physical processes (S188) \citep{Farnsworth2022Information}.
+- Patra and Kauffman sharpen the ontology claim into a proposed contrast between
+  fixed law-governed spaces and an indefinite domain of contextual novelty
+  (S189) \citep{PatraKauffman2025NoLaw}.
+- Faggian reports a numerical intervention linking autocatalytic closure to
+  complexity dynamics in a Kauffman chemical model (S190)
+  \citep{Faggian2025Closure}.
+- Chen's evolving cellular automaton treats adaptive topology as structural
+  biological information (S191) \citep{Chen2026TopologyCode}.
+- A second Chen model obtains persistent biological-like organization from a
+  minimal four-state stochastic cellular automaton (S192)
+  \citep{Chen2026MinimalInteraction}.
+- Fari\~na and Vallejo define a biological cosmological constant from the
+  squared fractional expansion rate of Fisher-information volume and interpret
+  the origin of life as a geometric phase transition into the adjacent possible
+  (S193) \citep{FarinaVallejo2026LambdaB}.
+
+These papers make BioSystems an unusually exact venue while further narrowing
+novelty. Embodiment, enabling constraints, causal closure-to-complexity effects,
+adaptive topological information, and persistent organization in a local
+artificial system cannot be claimed as ICP or IOTA discoveries. Neither can a
+first geometric adjacent-possible measure, cosmological analogy, or generic
+phase-transition formalization. The paired
+papers must instead foreground complete carrier replacement, registered
+intervention and rescue, enabled/lost/retained future identities, and a held-out
+cross-scale prediction beyond matched cellular-automaton and Fisher-volume
+baselines.

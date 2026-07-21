@@ -1,0 +1,157 @@
+{
+  "archive": {
+    "fixed_member_timestamp": "1980-01-01T00:00:00Z",
+    "format": "zip",
+    "members": [
+      "library/references.bib",
+      "manuscript/sections/01_persistence_iota.tex",
+      "manuscript/sections/02_method_formalism.tex",
+      "manuscript/sections/03_project_evidence.tex",
+      "manuscript/sections/04_native_formalisms.tex",
+      "manuscript/sections/05_quantum_emergence.tex",
+      "manuscript/sections/06_statistics_biology_gravity.tex",
+      "manuscript/sections/07_adversarial_verdict.tex",
+      "manuscript/sections/08_research_path.tex",
+      "manuscript/submission_main.tex",
+      "submission/biosystems/README.md",
+      "submission/biosystems/cover_letter_icp.md",
+      "submission/biosystems/highlights.txt",
+      "submission/biosystems/presubmission_inquiry.md",
+      "submission/biosystems/submission_checklist.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "checksum_file": "output/submission/icp_biosystems_sources.zip.sha256",
+      "path": "output/submission/icp_biosystems_sources.zip",
+      "sha256": "4e4f5582765f792c2e38a374f30896f5cd339b0d4ac473f28b62be77202ca822",
+      "size_bytes": 73611
+    },
+    {
+      "checksum_file": "output/pdf/icp_biosystems_submission.pdf.sha256",
+      "path": "output/pdf/icp_biosystems_submission.pdf",
+      "sha256": "99759f0a8455309bc3b401235d00439fa08faa207d4865db9c1909f4db342e34",
+      "size_bytes": 505978
+    }
+  ],
+  "build_inputs": [
+    {
+      "path": "Makefile",
+      "sha256": "bda2d6b5c3127d8f03ad411cf4358be3a2dd140044b09b32de218f202e024288",
+      "size_bytes": 1262
+    },
+    {
+      "path": "scripts/package_icp_submission.py",
+      "sha256": "1173033d622c14f1bfafa8fcb81cc70996beb2cb9cfb4f56bdb766b2868348c0",
+      "size_bytes": 7773
+    },
+    {
+      "path": "scripts/validate_icp_submission.py",
+      "sha256": "7634b20417c5e4ec84afd9015b58f33d0d946a593eeb2fb45d29aaa5dac4395e",
+      "size_bytes": 12315
+    }
+  ],
+  "git": {
+    "available": true,
+    "branch": "agent/clean-published-metadata",
+    "commit": "b6073728ab40b1611c2083a3966d66e6c1a0eee9",
+    "source_status_porcelain": [
+      " M Makefile",
+      " M library/references.bib",
+      " M manuscript/sections/01_persistence_iota.tex",
+      " M manuscript/sections/04_native_formalisms.tex",
+      " M manuscript/sections/05_quantum_emergence.tex",
+      " M manuscript/sections/06_statistics_biology_gravity.tex",
+      " M manuscript/sections/07_adversarial_verdict.tex",
+      " M manuscript/sections/08_research_path.tex",
+      "?? manuscript/submission_main.tex",
+      "?? scripts/package_icp_submission.py",
+      "?? scripts/validate_icp_submission.py",
+      "?? submission/biosystems/README.md",
+      "?? submission/biosystems/cover_letter_icp.md",
+      "?? submission/biosystems/highlights.txt",
+      "?? submission/biosystems/presubmission_inquiry.md",
+      "?? submission/biosystems/submission_checklist.md"
+    ],
+    "source_tree_dirty": true
+  },
+  "inputs": [
+    {
+      "path": "library/references.bib",
+      "sha256": "14acaa96390213cd4d4d743a4a26adca074fbc61bc644ebbeddd21a8c9cae4d9",
+      "size_bytes": 67326
+    },
+    {
+      "path": "manuscript/sections/01_persistence_iota.tex",
+      "sha256": "9407178023f4ae301a1bb687666dcada6c73c321327baf754b81d62b57c9b61c",
+      "size_bytes": 6433
+    },
+    {
+      "path": "manuscript/sections/02_method_formalism.tex",
+      "sha256": "026ff53c45557d361ae88caad63ab8e47994d6004a3c6bd50c6796bdf22697a1",
+      "size_bytes": 10301
+    },
+    {
+      "path": "manuscript/sections/03_project_evidence.tex",
+      "sha256": "330084c19332f7573d1420ca6833647f4da66577e1fb1e75d0f76092e42fd177",
+      "size_bytes": 8934
+    },
+    {
+      "path": "manuscript/sections/04_native_formalisms.tex",
+      "sha256": "43e5388e0be2b2ee15f078d131d45ef3722ba2822786e08fd4dc5111a4cfdfe1",
+      "size_bytes": 13938
+    },
+    {
+      "path": "manuscript/sections/05_quantum_emergence.tex",
+      "sha256": "856b0c9501fd07063b39c69e12225c0a55f0fa775e03d65e65d51b6248f371e5",
+      "size_bytes": 16386
+    },
+    {
+      "path": "manuscript/sections/06_statistics_biology_gravity.tex",
+      "sha256": "75110e70d639c79d1a5ea272c4714ad5a90bb7c6273f08986f9617ac93204716",
+      "size_bytes": 30150
+    },
+    {
+      "path": "manuscript/sections/07_adversarial_verdict.tex",
+      "sha256": "88d1a3a758b1fe0cfbae4de7ad69d0216ad8726383da730543406581821f77a9",
+      "size_bytes": 11181
+    },
+    {
+      "path": "manuscript/sections/08_research_path.tex",
+      "sha256": "b5df54128abe681e61476eae03c7d7e1804e33284667fc6a6fffa2f47ac0315b",
+      "size_bytes": 11364
+    },
+    {
+      "path": "manuscript/submission_main.tex",
+      "sha256": "d97803e029891b5362d4e18dca8496786d568a6948a4d917d4467989482af0f0",
+      "size_bytes": 5469
+    },
+    {
+      "path": "submission/biosystems/README.md",
+      "sha256": "d923c348b7676865b74c2a6ceea6dc08a6c962200236272b15b06a4cb450e9ef",
+      "size_bytes": 1767
+    },
+    {
+      "path": "submission/biosystems/cover_letter_icp.md",
+      "sha256": "cbdb560be088ff110ea671f65993b6768293624b5c76aec74decdca42f24205e",
+      "size_bytes": 2761
+    },
+    {
+      "path": "submission/biosystems/highlights.txt",
+      "sha256": "d52fcfd700c7793a04a944d4f76204729dc7e5b746735b494b7ba9489c81eef8",
+      "size_bytes": 374
+    },
+    {
+      "path": "submission/biosystems/presubmission_inquiry.md",
+      "sha256": "59289fa837d075c33b2f4bc03fbe75a404f5d192cc53de9c86b0af9ab1b52523",
+      "size_bytes": 2819
+    },
+    {
+      "path": "submission/biosystems/submission_checklist.md",
+      "sha256": "bd3e95195ecc4beaef891af977af6e9699f99b799a319acc7d17265164f31bbd",
+      "size_bytes": 1489
+    }
+  ],
+  "manifest_path": "output/submission/icp_biosystems_build_manifest.json",
+  "schema_version": 1
+}
