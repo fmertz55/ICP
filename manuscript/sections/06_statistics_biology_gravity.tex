@@ -5,9 +5,11 @@ four ways to try to break it.  Zipf statistics test whether a compelling
 regularity identifies a mechanism.  Entropy tests whether one scalar retains
 the structure of constrained possibility.  Biology tests whether history can
 build and maintain a causally effective record under ordinary material
-turnover.  Black-hole information theory tests whether ``preserved,''
-``outside,'' and ``recoverable'' remain equivalent when observables,
-factorization, and computational resources become nontrivial.  In each case,
+turnover. Gravity tests whether local geometric entropy can be mapped to an
+operational future constraint without choosing the operands for agreement;
+black-hole information further tests whether ``preserved,'' ``outside,'' and
+``recoverable'' remain equivalent when observables, factorization, and
+computational resources become nontrivial. In each case,
 the native theory carries the scientific result; ICP is at most a proposed
 mapping until it supplies an additional invariant, prohibition, compression,
 or prediction.
@@ -173,6 +175,115 @@ then compare the complete native model after carrier intervention and state
 augmentation.  Searching across entropy definitions until one moves in the
 desired direction would be representation selection, not evidence for a
 principle.
+
+\subsection{Gravity from Entropy supplies a geometric bridge target}
+
+\paragraph{Established field result within the GfE construction.}
+Gravity from Entropy (GfE) defines higher-order metric operators, assumes their
+flattened ratio is positive, and writes its gravitational log-determinant term as
+\begin{equation}
+ \mathcal L_{\mathrm{GfE}}
+ =-\operatorname{Tr}_{F}\ln\boldsymbol\Theta,
+ \qquad
+ \boldsymbol\Theta=\widetilde{\mathbf G}\,\widetilde g^{-1},
+ \qquad
+ \boldsymbol{\mathcal G}=\boldsymbol\Theta^{-1}
+ \label{eq:gfe-logdet}
+\end{equation}
+\citep{Bianconi2025Gravity,Bianconi2026Thermodynamics}. These metric operators
+are not normalized probability states, and the subscript $F$ denotes the
+flattened-tensor trace rather than a probabilistic state space. Thus
+Eq.~\eqref{eq:gfe-logdet} is not automatically a Kullback--Leibler or Umegaki
+divergence. In the thermodynamic development, an eigenmode contributes
+\begin{equation}
+ c_k:=\frac{\delta s_k}{\delta v}=\ln\mathcal G_k,
+ \qquad
+ \theta_k=e^{c_k}-1,
+ \qquad
+ \frac{\delta\epsilon_k}{\delta v}=e^{c_k}-1-c_k.
+ \label{eq:gfe-thermodynamics}
+\end{equation}
+Individual $c_k$ can be signed; a nonnegative mode-by-mode identification with
+Eq.~\eqref{eq:icp-constraint-divergence} is therefore generally invalid.
+
+\paragraph{Synthesis inference: the bridge formula.}
+Let $Q_x^{\mathrm{prior}}$ and $Q_x^{\mathrm{post}}$ be as-yet-undefined positive
+operators whose flattened determinants encode one declared measure of IOTA
+reachable futures. The proposed bridge is
+\begin{equation}
+ \begin{aligned}
+ \boldsymbol\Theta_x
+ &\stackrel{?}{=}(Q_x^{\mathrm{prior}})^{-1/2}
+ Q_x^{\mathrm{post}}(Q_x^{\mathrm{prior}})^{-1/2}
+ \sim Q_x^{\mathrm{post}}(Q_x^{\mathrm{prior}})^{-1},\\
+ \det_F Q_x&=a\,\mu(\Rset_x),
+ \qquad a>0\ \text{common to prior and post}.
+ \end{aligned}
+ \label{eq:gfe-iota-operator-bridge}
+\end{equation}
+Here $\sim$ denotes similarity; the first representative is positive and has
+the determinant ratio of the original product. For the finite IOTA identity,
+$\mu$ is counting measure. Under these algebraic conditions,
+\begin{equation}
+ \begin{aligned}
+ -\ln\det_F\boldsymbol\Theta_x
+ &=\ln\frac{\mu(\Rset_x^{\mathrm{prior}})}
+             {\mu(\Rset_x^{\mathrm{post}})}\\
+ &=\ln\frac{|\Rset_x^{\mathrm{prior}}|}
+             {|\Rset_x^{\mathrm{post}}|}
+ =\Delta I_x
+ =D_{\mathrm{KL}}(U_x^{\mathrm{post}}\Vert U_x^{\mathrm{prior}}).
+ \end{aligned}
+ \label{eq:gfe-iota-scalar-bridge}
+\end{equation}
+For a non-counting base measure, the same determinant algebra would instead
+define $\Delta I_x^{(\mu)}$ for normalized restrictions of that measure; it
+cannot silently replace the cardinality-defined $\Delta I_x$. The question mark
+in Eq.~\eqref{eq:gfe-iota-operator-bridge} carries the missing physics:
+the operators, common domain, metric meaning, covariance, functional variation,
+and continuum regularization remain to be derived from IOTA and GfE.
+
+\paragraph{Conditional scaling and discriminator.}
+If a mode-resolved IOTA contribution $\chi_{x,k}$ and a physical mode dictionary
+were independently derived, the conditional sectorwise crosswalk would be
+\begin{equation}
+ \begin{aligned}
+ \chi_{x,k}&\widehat{=}c_k:=\delta s_k/\delta v,\\
+ \mathcal G_k&=e^{\chi_{x,k}},\qquad
+ \theta_k=e^{\chi_{x,k}}-1,\qquad
+ \delta\epsilon_k/\delta v=e^{\chi_{x,k}}-1-\chi_{x,k}.
+ \end{aligned}
+ \label{eq:gfe-conditional-crosswalk}
+\end{equation}
+Here $k\in\{0,\ldots,4\}$ labels the five GfE sectors and $z_k$ is the
+corresponding degeneracy, with $z_0=z_1=1$ and $z_2=z_3=z_4=3$. In the
+reported weak-curvature Friedmann expansion, $u_k=\omega_kH^2$ with
+$\omega_k=\omega'_k\ell_{\mathrm P}^2$, and
+$\bar\omega_{[1]}:=\sum_{k=0}^{4}z_k\omega_k$.
+This cannot be imposed generally because $c_k$ can be signed while
+Eq.~\eqref{eq:icp-constraint-divergence} is nonnegative. An aggregate
+$\chi_x\widehat{=}\sum_kz_kc_k$ also determines neither a single temperature nor
+$\delta\epsilon/\delta v=\sum_kz_k(e^{c_k}-1-c_k)$ without the full mode vector.
+
+For weak-curvature, late-time Friedmann backgrounds, modes with
+$\omega_k\neq0$ obey $c_k\simeq\omega_kH^2$ and
+$\delta\epsilon_k/\delta v\simeq\tfrac12\omega_k^2H^4$. For non-de Sitter
+solutions with $H\sim t^{-1}$ these scale as $t^{-2}$ and $t^{-4}$. The summed
+entropy's leading coefficient $\bar\omega_{[1]}$ vanishes in the reported Milne
+and $w=1$ cases, so an aggregate $H^2$ scaling requires
+$\bar\omega_{[1]}\neq0$. All of these asymptotics insert standard Friedmann
+behavior into the GfE functionals; they are not yet a novel ICP prediction or a
+discriminator from GR/\(\Lambda\)CDM.
+
+A first bridge-specific test is instead to construct $Q_x$ from frozen IOTA
+microdynamics and $\boldsymbol\Theta_x$ independently from the geometric sector,
+then test whether their scale-dependent log determinants agree without fitting
+the equality. Generic branching, percolation, ordinary complete-state dynamics,
+GR/\(\Lambda\)CDM, and unbridged GfE do not themselves supply that cross-level
+identity. A cosmological claim requires more: the derived continuum map must
+produce a transition, correction, or observable that is absent from the named
+complete rivals and is registered before data comparison. At present this is a
+precise research bridge, not empirical support for ICP or GfE.
 
 \subsection{Biology supplies persistent records, not a substrate ontology}
 

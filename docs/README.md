@@ -26,6 +26,18 @@ The source manuscript should be cited or discussed only if a later manuscript
 explicitly analyzes it as an object of study. It must not be used circularly to
 support claims derived from its own framing.
 
+`iota_constraint_transport_manuscript.pdf` was copied from:
+
+`/Users/douglasclark/iota/build/paper/main.pdf`
+
+- Copied: 2026-07-21
+- Size: 283,096 bytes
+- SHA-256: `fa9780ca1d449d86d446b9240f564b852613ff9ef4930a17794e4338182a19f4`
+- Role: project constructive evidence and the exact finite nested-support KL
+  specialization used in the GfE bridge
+- Evidence status: **project evidence, not independent validation of ICP or
+  GfE**
+
 `first_icp_paper_scoping_discussion.md` preserves the user-supplied conceptual
 outline for the first ICP foundations paper.
 

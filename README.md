@@ -34,7 +34,9 @@ or reject ICP.
 ## Current status and verdict
 
 The bounded literature closure and manuscript architecture are complete at the
-20 July 2026 evidence cutoff. Eight synthesis batches cover the formal core,
+20 July 2026 evidence cutoff. A targeted 21 July amendment adds two primary
+Gravity from Entropy sources and a formally delimited IOTA--GfE bridge without
+reopening the other search strata. Eight synthesis batches cover the formal core,
 Zipf, black-hole information, entropy, control/causal information/information
 thermodynamics, quantum records/reference frames/causal order, biological
 organization, and emergent quasiparticles.

@@ -1,7 +1,7 @@
 # ICP structured critical-synthesis protocol
 
-- Protocol version: 0.6
-- Date: 2026-07-20
+- Protocol version: 0.7
+- Date: 2026-07-21
 - Status: pilot protocol
 - Review type: structured critical-scoping review with integrative synthesis
 

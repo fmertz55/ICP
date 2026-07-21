@@ -9,7 +9,10 @@ redundancy account. The final bounded closure covered classical
 reachability/viability, causal and semantic information, feedback information
 thermodynamics, positive and critical Quantum Darwinism, quantum reference
 frames, biological organization and carrier interventions, and emergent
-quasiparticles. The search cutoff was 20 July 2026.
+quasiparticles. The bounded cross-domain search cutoff was 20 July 2026. A
+targeted 21 July amendment added two primary Gravity from Entropy sources and
+the formal IOTA--GfE bridge discussed below; it did not reopen the other search
+strata or convert the review into an exhaustive search.
 
 Claims are assigned to five evidence strata:
 \begin{enumerate}
@@ -67,6 +70,47 @@ $m_0$ prepared with the same declared ordinary state variables and resources:
   convertibility preorder under the same allowed operations.
 \end{itemize}
 No universal sign for an entropy difference follows from these definitions.
+
+\subsection{A relative-entropy constraint diagnostic}
+
+For a declared comparison $m$ versus $m_0$ at $x$, one distribution-sensitive member
+of the future-family comparison is
+\begin{equation}
+ \mathfrak C_{x,\tau}^{\pi}
+ (m\Vert m_0;\mathcal A,B,C)
+ :=D_{\mathrm{KL}}\!\left(
+ P^{\pi}_{\mathcal A}(F_{t:t+\tau}\mid m,B,C)
+ \middle\Vert
+ P^{\pi}_{\mathcal A}(F_{t:t+\tau}\mid m_0,B,C)
+ \right),
+ \label{eq:icp-constraint-divergence}
+\end{equation}
+provided both laws use the same outcome space, intervention, horizon, measure,
+and coarse-graining, with the first law absolutely continuous with respect to
+the second \citep{KullbackLeibler1951Information}. This is an indexed diagnostic,
+not the definition of ICP: the full family in Eq.~\eqref{eq:future-family}
+retains outcome identity, topology, interventions, and operational order that a
+single scalar discards.
+
+The IOTA support quantity has an exact specialization. If the post-intervention
+law is uniform on
+$\Rset_x^{\mathrm{post}}\subseteq\Rset_x^{\mathrm{prior}}$ and the reference
+law is uniform on $\Rset_x^{\mathrm{prior}}$, then
+\begin{align}
+ D_{\mathrm{KL}}(U_x^{\mathrm{post}}\Vert U_x^{\mathrm{prior}})
+ &=\sum_{f\in\Rset_x^{\mathrm{post}}}
+   \frac{1}{|\Rset_x^{\mathrm{post}}|}
+   \log\frac{|\Rset_x^{\mathrm{prior}}|}
+                 {|\Rset_x^{\mathrm{post}}|} \notag\\
+ &=\log\frac{|\Rset_x^{\mathrm{prior}}|}
+                  {|\Rset_x^{\mathrm{post}}|}
+ =\Delta I_x .
+ \label{eq:iota-kl-identity}
+\end{align}
+This direction is essential: reversing the divergence is infinite under strict
+support pruning. Non-nested or support-creating interventions require an
+explicitly chosen alternative treatment rather than silent reuse of
+Eq.~\eqref{eq:iota-kl-identity} \citep{Clark2026IotaConstraint}.
 
 \subsection{The persistent-carrier criterion}
 
