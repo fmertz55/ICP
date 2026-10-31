@@ -1,0 +1,145 @@
+\section{The adjacent possible and its carriers}
+\label{sec:ap}
+
+Of the native formalisms, the adjacent possible is the closest to ICP and the
+one in which ICP has the clearest opportunity to contribute. This section sets
+out what the formal theory already establishes, identifies the step it leaves
+unspecified, and states a prediction that separates a carrier-based account
+from the existing models.
+
+\subsection{What is formalized}
+
+Kauffman defined the chemical adjacent possible as the molecular species absent
+from the actual but synthesizable from it in one reaction step
+\citep[p.~142]{Kauffman2000Investigations}, and later argued in this journal
+that enabling constraints open unprestatable possibilities in biological
+evolution \citep{Kauffman2014Prolegomenon,PatraKauffman2025NoLaw}. Tria,
+Loreto, Servedio, and Strogatz gave the idea its first minimal mathematical
+form \citep{TriaEtAl2014Novelties}. In their urn model with triggering, an
+element drawn from an urn is returned together with $\rho$ copies
+(reinforcement); if and only if the element is new, $\nu+1$ brand-new elements
+are also added, so that $\nu+1$ is the size of the adjacent possible opened by
+that novelty. The balance of the two processes fixes the statistics: the number
+of distinct elements grows as $D(N)\sim N^{\nu/\rho}$ for $\nu<\rho$, as $N\log
+N$ for $\nu=\rho$, and linearly for $\nu>\rho$, with Zipf's law $f(R)\sim
+R^{-\rho/\nu}$. A semantic-triggering variant reproduces the clustering of
+related novelties observed in Wikipedia edits, music listening, annotation tags,
+and texts \citep{TriaEtAl2014Novelties}.
+
+The framework has since been extended in several directions. Explorations of
+the adjacent possible in social contact space reproduce the rate at which
+individuals acquire new acquaintances and the degree, clustering, and community
+structure of real networks \citep{UbaldiEtAl2021SocialNetworks}. Waves of
+novelties in which newcomers are not suppressed by established elements have
+been quantified across several systems \citep{MonechiEtAl2017Waves}. A
+time-dependent urn with triggering, with reinforcement and triggering
+parameters that vary in time, reproduces the logarithmic novelty growth
+observed in gene mutations and patent codes and has a critical region in which
+Heaps' and Zipf's laws coexist \citep{BellinaEtAl2025TimeDependentUrn}.
+Edge-reinforced walks place discovery on an explicit concept network
+\citep{IacopiniEtAl2018Innovation}, and higher-order novelty counts first
+occurrences of combinations, distinguishing sequences with similar first-order
+discovery rates \citep{DiBonaEtAl2025HigherOrder}. Combinatorial TAP models
+generate long plateaus followed by explosive growth
+\citep{SteelEtAl2020Combinatorial}, while long-run product data show
+resource-constrained rather than unrestricted combinatorial discovery
+\citep{Taalbi2026AdjacentPossible}. Fari\~na and Vallejo give a geometric
+formulation, a biological cosmological constant proportional to the squared
+fractional expansion rate of Fisher-information volume
+\citep{FarinaVallejo2026LambdaB}.
+
+ICP therefore cannot claim history-dependent accessibility, triggered support
+growth, correlated novelty, a plateau-to-explosion transition, the Heaps and
+Zipf regularities, or a geometric measure of expansion. All of these are prior
+art.
+
+\subsection{What is left unspecified}
+
+In each of these models the opening step is postulated. The triggering
+parameter $\nu$, or its time-dependent generalization, is fitted to data, and
+the elements it adds are featureless new colours or nodes; what in the system
+produces them lies outside the model. Two further features follow from this
+construction. First, the basic urn never removes elements, so possibilities
+once opened stay open indefinitely: in the ledger of
+Eq.~\eqref{eq:possibility-flux-ledger} only the enabled set $E$ is populated,
+and the lost set $L$ is empty by construction. Second, the opened
+possibilities depend on the history only through the count and order of past
+novelties, not through any structure that remains physically present.
+
+Kauffman's enabling constraints name the missing element without making it
+operational. This is the step ICP's carrier criterion is designed for. In its
+terms, an account of how the adjacent possible expands must identify an
+embodied carrier $m$, formed by the novelty event, whose presence makes the
+frontier $\mathcal J^{\pi,\ell}_{t,\tau}$ of Eq.~\eqref{eq:adjacent-frontier}
+larger than it is under a matched reference $m_0$. The triggering size then
+becomes an intervention--response quantity,
+\begin{equation}
+ \nu_{\mathrm{C}}(m)
+ :=\bigl|\mathcal J^{\pi,\ell}_{t,\tau}(m)\bigr|
+  -\bigl|\mathcal J^{\pi,\ell}_{t,\tau}(m_0)\bigr|,
+ \label{eq:carrier-triggering}
+\end{equation}
+measured by ablating, restoring, or replacing the carrier rather than fitted to
+a sequence, and reported together with the identities of the enabled and lost
+types. ICP does not supply the mechanism that makes $\nu_{\mathrm{C}}$ positive
+in a given system; that is chemistry, biophysics, or sociology. It supplies the
+test that would identify the mechanism, and the accounting under which the
+identification can fail.
+
+\subsection{A discriminating prediction}
+
+The two accounts differ on one point that can be tested. In an urn model,
+possibilities opened by a novelty persist whatever happens afterwards. On the
+carrier account, an opened possibility persists only while its carrier, or a
+role-equivalent successor, remains realized:
+\begin{quote}
+\textbf{Carrier dependence of the adjacent possible.} If the carrier formed by
+a novelty event is removed after the event, without a successor, the
+possibilities it opened leave the frontier, and they return if the carrier is
+restored.
+\end{quote}
+A pure triggering model predicts no change in the frontier under this
+intervention, because the history of novelties is unchanged. A complete
+mechanistic model of a particular system may of course predict the same as the
+carrier account; the prediction distinguishes ICP from the phenomenological
+models of the adjacent possible, not from complete-state dynamics.
+
+Molecular evolution already provides a case in which the prediction holds.
+During the evolution of cortisol specificity in the ancestral glucocorticoid
+receptor, permissive substitutions were functionally neutral in isolation but
+had to be present for the large-effect function-switching mutations to be
+tolerated \citep{HarmsThornton2014Contingency}. In the terms above, the
+permissive substitutions are the carrier, the set of tolerable
+function-switching mutations is the enabled set $E$, and the dependence of
+tolerance on their presence is the carrier dependence of that frontier. The
+same study found that permissive genotypes were extremely rare: a library of
+thousands of variants of the ancestral protein recovered the historical
+permissive substitutions but no alternatives, because a permissive mutation
+must stabilize specific local structure, preserve the energetic balance between
+conformations, and be compatible with both ancestral and derived structures
+\citep{HarmsThornton2014Contingency}. Contingency in which few paths are open
+also appears in the exhaustive reconstruction of TEM $\beta$-lactamase
+trajectories \citep{WeinreichEtAl2006MutationalPaths}. These are cases in which
+the opener of an adjacent possible has been identified physically and in which
+its ablation is experimentally meaningful.
+
+The pattern also connects to the crossover of
+Eq.~\eqref{eq:constraint-enablement-crossover}. Permissive substitutions
+restrict nothing measurable at the level of immediate receptor function, yet
+they enlarge the set of later functional changes; a carrier that prunes
+microstates while enlarging the role frontier is the general form of the same
+observation.
+
+\subsection{From statistics to carriers}
+
+The urn models explain the statistics of discovery from a small number of
+parameters. The carrier account asks what sets those parameters. If it is
+correct, the triggering and reinforcement rates of a system should be
+predictable from measured properties of its carriers: how often novelty events
+form a carrier, how large a frontier each carrier opens, and how long carriers
+survive or are succeeded. A time-dependent triggering rate
+\citep{BellinaEtAl2025TimeDependentUrn} would then be read as a changing
+population of realized carriers. Making that link quantitative in one system,
+by predicting $\nu$ and its time dependence from carrier measurements before
+fitting the sequence, is the most direct way in which ICP could become an
+explanation of the adjacent possible rather than a redescription of it.
