@@ -1,0 +1,113 @@
+\section{Worked case: transcriptional memory through chromatin succession}
+\label{sec:ino1}
+
+\subsection{The system}
+
+Budding yeast cells previously starved of inositol reactivate the \textit{INO1}
+gene faster on a second starvation than cells without that history. The memory
+requires a cis-acting DNA element (the memory recruitment sequence, MRS), the
+transcription factor Sfl1 bound to it, interaction with the nuclear pore
+complex, incorporation of H2A.Z, and a memory-specific dimethylation of histone
+H3 lysine 4 (H3K4me2) \citep{LightEtAl2010INO1,SumpEtAl2022INO1Memory}. The mark
+is written by a form of COMPASS lacking the Spp1 subunit and requires SET3C, a
+complex that binds H3K4me2 and interacts physically with the writer; the
+authors propose this writer--reader coupling as the mechanism for
+re-incorporating the mark after DNA replication \citep{SumpEtAl2022INO1Memory}.
+
+Sump and colleagues separated establishment from inheritance by inducible
+degradation of Sfl1. When Sfl1 was degraded after memory had been established,
+peripheral localization was lost but H3K4me2 remained at the promoter for
+roughly three to four generations; degrading Set3 together with Sfl1 caused
+rapid loss of the mark \citep{SumpEtAl2022INO1Memory}. The authors conclude
+that memory duration is governed by the number of divisions or replication
+cycles, reflecting dilution, degradation, or imperfect fidelity of inheritance.
+
+\subsection{Mapping onto the criterion}
+
+Each replication fork distributes parental nucleosomes between the daughter
+chromatids and incorporates new ones, so the physical realizations
+$c_0,c_1,c_2,\ldots$ of the mark are progressively disjoint in material
+composition. This is the situation the succession clause of
+Section~\ref{sec:criterion} was written for. Table~\ref{tab:ino1} gives the
+mapping.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{The persistent-carrier criterion applied to \textit{INO1}
+transcriptional memory. ``Shown'' refers to published results
+\citep{LightEtAl2010INO1,SumpEtAl2022INO1Memory}; ``untested'' marks components
+of the criterion that no published experiment yet addresses.}
+\label{tab:ino1}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.2\linewidth}
+  >{\raggedright\arraybackslash}X
+  >{\raggedright\arraybackslash}p{0.13\linewidth}}
+\toprule
+Element & Instantiation & Status \\
+\midrule
+History $m$ vs.\ $m_0$ & Prior inositol starvation vs.\ never-starved cells in the
+same current medium & Shown \\
+Future family $\Efamily$ & Distribution of \textit{INO1} re-induction times
+after re-starvation, indexed by the delay $\pi\in\Pi$ & Shown (faster
+reactivation) \\
+Constraint type & Soft: naive cells also induce, so the support is unchanged
+and the weights shift; Eq.~\eqref{eq:icp-constraint-divergence} applies
+directly & Inferred \\
+Formation & Sfl1 and pore interaction required to establish the mark & Shown \\
+Carrier intervention & Removing writer/reader components (COMPASS, SET3C)
+abolishes the mark and faster reactivation; matched shams required & Shown,
+shams partial \\
+Succession & H3K4me2 re-incorporated onto new nucleosomes for 3--4 generations
+after initiator removal & Shown for the mark \\
+Role equivalence $\sim$ & Successor cells whose re-induction distribution lies
+within a declared tolerance of the memory distribution & Untested across
+succession \\
+Role exhaustion & Mark lost after finitely many divisions while the lineage
+lives: $\Rset_C=\varnothing$ for the role, not the substrate & Shown for the
+mark \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{What the case shows and does not}
+
+The case passes formation, sufficiency, and carrier intervention for the mark,
+and it demonstrates succession of the \emph{record} through several rounds of
+replication-coupled carrier replacement. It does not yet demonstrate
+succession of the \emph{role}. Sfl1 is itself required to express the faster
+reactivation, so while Sfl1 is absent the future-response family cannot be
+assayed: the inherited mark is a latent record whose functional reading has not
+been measured after succession. This distinction between persistence of a
+record and persistence of a role is exactly the one ICP exists to enforce, and
+the published literature does not need ICP to draw it. It does, however, make
+the missing experiment precise.
+
+\paragraph{Prospective test.} Establish memory, degrade Sfl1, allow
+$k=0,1,\ldots,5$ generations of latent inheritance, restore Sfl1, and measure
+re-induction after re-starvation. ICP's succession clause predicts that the
+divergence $\mathfrak C_k$ between memory and naive re-induction-time
+distributions decays with $k$ at the per-generation rate of H3K4me2 retention at
+the locus, and that degrading Set3 only during the latent interval abolishes
+$\mathfrak C_k$ while a matched sham degradation does not. If restored Sfl1
+re-establishes fast reactivation independently of the inherited mark, the
+role was not carried by the successor record and the case fails the
+succession gate.
+
+\paragraph{The ordinary rival.} Nucleosome-modification models with recruited
+positive feedback already predict that the stability of a chromatin memory is
+set by the balance between feedback-driven re-modification and
+replication-coupled dilution, with bistable, effectively heritable states above
+a feedback threshold \citep{DoddEtAl2007EpigeneticMemory}. A complete chromatin
+model of this kind, with the writer and reader machinery included, fixes the
+future family in the sense of Eq.~\eqref{eq:complete-state-null}. We expect
+it to predict the outcome of the prospective test, and we do not claim that ICP
+explains \textit{INO1} memory better than chromatin dynamics does.
+
+The case is therefore a positive control for the criterion rather than
+evidence for a new mechanism. A criterion that failed to classify a known,
+mechanistically understood memory correctly would be disqualified; one that
+classifies it correctly, separates record from role, and specifies the
+untested experiment has earned the right to be applied where the mechanism is
+not known. The same table can be filled in for CRISPR spacers, prion
+conformational templates, and artificial systems, which makes them comparable
+as instances of one question.

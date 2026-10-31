@@ -5,7 +5,7 @@ BUILD := tmp/latex
 OUT := output/pdf
 SUBMISSION_OUT := output/submission
 
-.PHONY: all technical submission lay clean
+.PHONY: all technical submission lay revision clean
 
 all: technical submission lay
 
@@ -26,6 +26,11 @@ lay:
 	mkdir -p $(BUILD)/lay $(OUT)
 	$(LATEXMK) $(LATEXFLAGS) -outdir=$(BUILD)/lay manuscript/lay_main.tex
 	cp $(BUILD)/lay/lay_main.pdf $(OUT)/how_the_past_changes_what_can_happen_next.pdf
+
+revision:
+	mkdir -p $(BUILD)/revision $(OUT)
+	$(LATEXMK) $(LATEXFLAGS) -outdir=$(BUILD)/revision manuscript/revision_r1_main.tex
+	cp $(BUILD)/revision/revision_r1_main.pdf $(OUT)/icp_biosystems_revision_r1.pdf
 
 clean:
 	$(LATEXMK) -C -outdir=$(BUILD)/technical manuscript/technical_main.tex

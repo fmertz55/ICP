@@ -1,0 +1,128 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,tabularx,longtable,array}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{lineno}
+\usepackage{setspace}
+
+\definecolor{icpnavy}{HTML}{183B56}
+\definecolor{icpteal}{HTML}{2B6F77}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=icpnavy,
+  citecolor=icpteal,
+  urlcolor=icpteal,
+  pdftitle={The Constrained Future: A Testable Information-Constraint Principle for Persistent Organization},
+  pdfauthor={Douglas Clark},
+  pdfsubject={BioSystems hypothesis paper, revision 1},
+  pdfkeywords={information constraint, adjacent possible, constraint closure, epigenetic memory, carrier succession, persistent organization, relative entropy}
+}
+
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.14}
+\emergencystretch=2em
+\onehalfspacing
+
+\newcommand{\ICP}{\textsc{ICP}}
+\newcommand{\IOTA}{\textsc{IOTA}}
+\newcommand{\Efamily}{\mathcal{E}_{\tau}}
+\newcommand{\Rset}{\mathcal{R}}
+\newcommand{\status}[1]{\textsf{#1}}
+
+\title{\textbf{The Constrained Future}\\
+\large A Testable Information-Constraint Principle for Persistent Organization}
+\author{Douglas Clark\\
+\small Independent Researcher\\
+\small Corresponding author: \href{mailto:clarkdd@gmail.com}{clarkdd@gmail.com}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{Article type:} Hypothesis Paper
+
+\begin{abstract}
+Living organization persists while its material components are replaced. We
+formulate the Information-Constraint Principle (ICP) as an operational
+hypothesis about such persistence: physically effective information is an
+interaction-formed, embodied constraint on an explicitly indexed family of
+reachable or probable future responses, and it persists only when its causal
+role is re-instantiated in successor carriers. A critical comparison with
+viability theory, the adjacent possible, empowerment, counterfactual semantic
+information, computational mechanics, constructor theory, and feedback
+thermodynamics shows that most future-option language is established prior
+art. ICP's remaining content is a persistent-carrier test requiring formation,
+sufficiency, carrier intervention, succession across replacement, and
+representation robustness. We formalize the adjacent possible as the
+novelty-bearing projection of an indexed reachable set and show that a signed
+support deformation equals forward Kullback--Leibler divergence under pruning
+and negative reverse divergence under enabling. Applied to yeast \textit{INO1}
+transcriptional memory, the test shows that a chromatin record survives several
+rounds of replication-coupled carrier replacement while depending on a
+maintenance system, but that succession of the functional role has not been
+tested; we specify the experiment that would test it and the
+nucleosome-modification model it must be compared against. ICP is a
+falsifiable organizing hypothesis, not an established law: its decisive test is
+whether carrier interventions predict held-out changes in future responses
+beyond complete native dynamics.
+\end{abstract}
+
+\noindent\textbf{Keywords:} information constraint; adjacent possible;
+constraint closure; epigenetic memory; carrier succession; persistent
+organization
+
+\linenumbers
+
+\input{manuscript/sections_r1/r01_introduction}
+\input{manuscript/sections_r1/r02_formalism}
+\input{manuscript/sections_r1/r03_redundancy}
+\input{manuscript/sections_r1/r04_biology}
+\input{manuscript/sections_r1/r05_ino1}
+\input{manuscript/sections_r1/r06_testbed}
+\input{manuscript/sections_r1/r07_audit}
+\input{manuscript/sections_r1/r08_path}
+
+
+\section*{Data and code availability}
+The literature registry, exact search log, claim--evidence matrix, rival and
+falsification registers, formal derivations, and manuscript sources are
+available at \url{https://github.com/fmertz55/ICP}. The simulation code,
+preregistrations, and frozen outputs of the companion artificial-life study are
+available at \url{https://github.com/fmertz55/iota}.
+
+\section*{Ethics statement}
+This theoretical and computational study used no human participants, human
+tissue, animals, or field samples; ethics approval and consent were not
+applicable.
+
+\section*{Funding}
+This research received no external funding.
+
+\section*{Declaration of competing interests}
+The author declares no known competing financial interests or personal
+relationships that could have appeared to influence the work reported here.
+
+\section*{CRediT author statement}
+Douglas Clark: Conceptualization; Methodology; Formal analysis; Investigation;
+Data curation; Software; Validation; Visualization; Writing -- original draft;
+Writing -- review and editing; Project administration.
+
+\section*{Declaration of generative AI and AI-assisted technologies}
+During preparation of this work, the author used OpenAI Codex and Anthropic Claude for
+AI-assisted literature triage, drafting, code review, and LaTeX editing.
+% AUTHOR: confirm this list matches the tools actually used. The
+author reviewed and verified the cited sources, calculations, code, claims, and
+final text and takes full responsibility for the content of the publication.
+
+\bibliographystyle{plainnat}
+\bibliography{library/references}
+
+\end{document}

@@ -1,0 +1,166 @@
+\section{Formalism}
+\label{sec:formalism}
+
+This article is a critical integrative synthesis and operational proposal, not
+a systematic review. A project registry records query strata, primary-source
+checks, source notes, competing explanations, falsification criteria, and a
+claim--evidence matrix; searches were expanded adversarially whenever a field
+offered a likely redundancy account. Claims are labelled as established field
+results, project evidence, synthesis inferences, or ICP hypotheses, and project
+papers are never counted as independent replication.
+
+\subsection{Indexed future-law families}
+
+For a candidate retained state or record $m$, intervention family $\Pi$,
+observable algebra $\mathcal A$, boundary and resolution declaration $B$,
+resource declaration $C$, and horizon $\tau$, define
+\begin{equation}
+ \Efamily(m;\Pi,\mathcal A,B,C)
+ =\left\{P^{\pi}_{\mathcal A}
+   \bigl(F_{t:t+\tau}\mid m,B,C\bigr):\pi\in\Pi\right\}.
+ \label{eq:future-family}
+\end{equation}
+The corresponding reachable support for policy $\pi$ is
+\begin{equation}
+ \Rset^{\pi}_{\tau}(m)=
+ \operatorname{supp}P^{\pi}_{\mathcal A}
+ \bigl(F_{t:t+\tau}\mid m,B,C\bigr),
+ \label{eq:reachable-support}
+\end{equation}
+with topology and tolerance specified for continuous spaces.
+
+Equation~\eqref{eq:future-family} is not itself an ICP law; it is shared
+comparison language. A \emph{constraint} requires a matched contrast between
+families, for example a history-formed carrier $m$ and a reference $m_0$
+prepared with the same declared ordinary state variables and resources:
+\begin{itemize}
+  \item a \textbf{hard constraint} changes reachable support on a common path
+  or outcome space;
+  \item a \textbf{soft constraint} changes weights while support may remain
+  fixed; and
+  \item an \textbf{operational constraint} changes a reachability or
+  convertibility preorder under the same allowed operations.
+\end{itemize}
+
+\subsection{A relative-entropy constraint diagnostic}
+
+For a declared comparison $m$ versus $m_0$ at $x$, one distribution-sensitive
+member of the future-family comparison is
+\begin{equation}
+ \mathfrak C_{x,\tau}^{\pi}
+ (m\Vert m_0;\mathcal A,B,C)
+ :=D_{\mathrm{KL}}\!\left(
+ P^{\pi}_{\mathcal A}(F_{t:t+\tau}\mid m,B,C)
+ \middle\Vert
+ P^{\pi}_{\mathcal A}(F_{t:t+\tau}\mid m_0,B,C)
+ \right),
+ \label{eq:icp-constraint-divergence}
+\end{equation}
+provided both laws use the same outcome space, intervention, horizon, measure,
+and coarse-graining, with the first law absolutely continuous with respect to
+the second \citep{KullbackLeibler1951Information}. This is an indexed
+diagnostic, not the definition of ICP: the full family retains outcome
+identity, topology, interventions, and operational order that a single scalar
+discards. For a soft constraint it is the natural quantity; for a hard
+constraint it has an exact support specialization. If the post-intervention
+law is uniform on $\Rset_x^{\mathrm{post}}\subseteq\Rset_x^{\mathrm{prior}}$
+and the reference law is uniform on $\Rset_x^{\mathrm{prior}}$, then
+\begin{equation}
+ D_{\mathrm{KL}}(U_x^{\mathrm{post}}\Vert U_x^{\mathrm{prior}})
+ =\log\frac{|\Rset_x^{\mathrm{prior}}|}{|\Rset_x^{\mathrm{post}}|}.
+ \label{eq:iota-kl-identity}
+\end{equation}
+The direction matters: the reversed divergence is infinite under strict
+support pruning.
+
+\subsection{The adjacent frontier and signed possibility-space flux}
+
+The adjacent possible becomes operational only after its outcome types and
+notion of ``one step'' are declared. Let $r_\ell:\Omega\rightarrow\mathcal
+K_\ell$ be a frozen scale-$\ell$ map from micro-outcomes to registered types or
+roles, and let $\mathcal V_t^\ell$ be the types actualized by time $t$. Define
+\begin{equation}
+ \mathcal J_{t,\tau}^{\pi,\ell}(m_t)
+ :=r_\ell\!\left(\Rset_\tau^\pi(m_t)\right)\setminus\mathcal V_t^\ell .
+ \label{eq:adjacent-frontier}
+\end{equation}
+When $\tau$ is one registered transition, this is the novelty-bearing sector of
+Kauffman's adjacent possible: types not yet actual but reachable in one step
+from the actual \citep[p.~142]{Kauffman2000Investigations}. It depends on
+$r_\ell,\pi,\tau,B,$ and $C$; changing a classifier, resource budget, or policy
+can change the set.
+
+For matched pre/post supports $R_0$ and $R_1$, retain the identity of the
+change rather than only its cardinality:
+\begin{equation}
+ K=R_0\cap R_1,\qquad E=R_1\setminus R_0,\qquad L=R_0\setminus R_1,
+ \label{eq:possibility-flux-ledger}
+\end{equation}
+the retained, enabled, and lost possibilities. A signed log-volume deformation
+is $\chi(R_1:R_0):=\log[\mu(R_0)/\mu(R_1)]$. For nonempty finite uniform nested
+supports it gives the exact dual pair
+\begin{equation}
+ \chi(R_1:R_0)=
+ \begin{cases}
+ D_{\mathrm{KL}}(U_{R_1}\Vert U_{R_0}),&R_1\subseteq R_0
+ \quad\text{(pruning)},\\[3pt]
+ -D_{\mathrm{KL}}(U_{R_0}\Vert U_{R_1}),&R_0\subseteq R_1
+ \quad\text{(enabling)}.
+ \end{cases}
+ \label{eq:signed-kl-duality}
+\end{equation}
+Thus $\chi>0$ denotes net contraction and $\chi<0$ net expansion. For
+non-nested supports $\chi$ is only a net-volume contrast and can vanish under
+complete identity turnover, so the ledger in
+Eq.~\eqref{eq:possibility-flux-ledger} must be reported alongside it.
+
+This duality makes one biologically familiar pattern precise. A retained
+carrier may restrict immediate microstate options while enabling more
+long-horizon role types,
+\begin{equation}
+ \chi_{\mathrm{micro},1}>0,\qquad
+ \chi_{\mathrm{role},h}<0\quad(h\ge h_\star),
+ \label{eq:constraint-enablement-crossover}
+\end{equation}
+under the same randomized carrier intervention. Enabling-constraint and
+scaffolding accounts already anticipate this qualitative pattern
+\citep{Kauffman2014Prolegomenon,Griesemer2024Scaffolded}; it becomes an ICP
+result only if $h_\star$ is predicted from independently measured carrier
+lifetimes and confirmed on held-out systems.
+
+\subsection{The persistent-carrier criterion}
+\label{sec:criterion}
+
+A proposed informational carrier $M$ passes the ICP criterion only if four
+gates are met:
+\begin{description}
+  \item[Formation.] Controlled histories create the candidate distinction.
+  \item[Sufficiency.] The distinction is sufficient for the declared future-law
+  family to a frozen error tolerance.
+  \item[Carrier intervention.] Ablating, replacing, transplanting, or scrambling
+  the proposed carrier changes a preregistered component of the future family,
+  while matched shams and resource controls do not.
+  \item[Robustness.] The result survives adequate state augmentation and
+  reasonable representation, partition, and coarse-graining changes, or its
+  representation dependence is stated as a boundary.
+\end{description}
+Persistence across carrier succession adds one further demand. Let
+$c_0,c_1,\ldots$ be physical realizations at successive times. They instantiate
+the same role only relative to a declared equivalence relation
+$\sim_{\Pi,\mathcal A,B,C,\tau}$ under which replacement preserves the relevant
+future-response family. Material disjointness alone does not establish
+sameness of role; sameness of an analyst's label does not establish physical
+transport.
+
+\subsection{Novelty and failure tests}
+
+The strongest null is complete-state ordinary dynamics: once every causally
+relevant variable, law, input, boundary, and control is included, there is no
+additional historical variable. ICP earns distinct content only by delivering
+at least one of the following beyond the best native model: a minimal
+sufficient physically embodied equivalence class; a representation-stable
+carrier-succession invariant; a new impossibility or conversion result; a
+demonstrably superior compression of intervention--response families; or a
+novel preregistered prediction. Disappearance under adequate state
+augmentation, failure of matched carrier interventions, or dependence on one
+convenient representation would lower or defeat the relevant claim.
