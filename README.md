@@ -148,6 +148,27 @@ PSA evidence is quarantined from the literature synthesis under
 boundary that invalidates a naive fit to the stored mixed-resolution voxel
 counts.
 
+## Candidate quantitative forms (recorded 2026-10-27)
+
+`synthesis/candidate_quantitative_forms.md` records two ways ICP could acquire
+the numerical content that the verdict and criterion `F001` require. They are
+proposed targets, not evidence, and the graded verdict is unchanged
+(amendment `A010`).
+
+- **QF1, a succession cost bound.** Carrying a constraint role across complete
+  carrier replacement consumes at least `k_B T · I_role` of nonequilibrium
+  resource. This floor is inherited from Landauer and Sagawa–Ueda. ICP's
+  distinctive claim is about scaling: succession cost should track the
+  role-level information `I_role`, not the carrier's microstate information
+  `H(M)` (criterion `F038`, rival `R040`).
+- **QF2, a persistence law.** A role persists indefinitely only if its
+  successor graph is supercritical, so role death is an absorbing-state
+  transition with exponents that can be predicted in advance. ICP's distinctive
+  claim is a role-level critical point where the substrate itself is not
+  critical, together with fragility to carrier replacement near that point
+  (criterion `F039`, rival `R041`). The IOTA protocol `ICP-DP-PERSISTENCE-001`
+  (deferred stage R) is the test vehicle.
+
 ## Core review question
 
 Across the selected scientific fields, under what operational definitions and
